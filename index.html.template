@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Klompenpaden GPX Bestanden</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="GPX bestanden voor Klompenpaden">
+        <meta name="keywords" content="GPX,hike,klompenpad">
+        <meta name="author" content="Anton Bakker">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://vanillacss.com/vanilla.css">
+  </head>
+  <body>
+    <h1>Klompenpaden GPX Bestanden</h1>
+
+    
+    {{#klompenpaden}}
+    <hr>
+    <span>
+    <h2 id="{{slug}}" style="display:inline;margin-right:0.5em;">
+      {{pad_naam}}</h2><a href="./index.html#{{slug}}">#</a>
+    </span>
+    <dl>
+        <dt><a href="{{pad_url}}" target="_blank">Link naar klompenpaden.nl</a></dt>
+        <dt><a href="{{pad_pdf_url}}" target="_blank">Download PDF Kaart</a></dt>
+        <dt><a href="{{gpx}}" target="_blank">Download GPX</a></dt>
+        <dt>Lengte</dt>
+        <dd>{{pad_lengte}} km</dd>
+    </dl>
+    {{/klompenpaden}}
+  </body>
+  <hr>
+  <footer>
+    
+    <p>
+      <small>Gemaakt door <a href="https://github.com/arbakker">Anton Bakker</a>. Broncode op <a href="https://github.com/arbakker/klompenpaden-gpx">Github</a>.
+      
+      <br>Data afkomsting van <a href="klompenpaden.nl">klompenpaden.nl</a>.
+
+      <br>Laatst geüpdatet op <tt>{{updated}}</tt>.
+      </small>
+    </p>
+  </footer>
+</html>

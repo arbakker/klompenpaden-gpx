@@ -1,0 +1,856 @@
+{
+  "klompenpaden": [
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/achterwooldsepad/",
+      "pad_naam": "Achterwooldsepad",
+      "pad_lengte": 18.04,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-09-23-Achterwooldsepad-liggend_200dpi-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/aderwinkelpad/",
+      "pad_naam": "Aderwinkelpad",
+      "pad_lengte": 13.32,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/KaartAderwinkelpadWebversie.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/albapad/",
+      "pad_naam": "Albapad",
+      "pad_lengte": 15.79,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-04-07-Albapad-A4-folder-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/alemschepad/",
+      "pad_naam": "Alemschepad",
+      "pad_lengte": 8.86,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2017-05-09-Zandslagenpad_Alemschepad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/ambts-en-rijkspad/",
+      "pad_naam": "Ambts- en Rijkspad",
+      "pad_lengte": 21.52,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-05-21-Ambts-en-Rijkspad_A4.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/appelpad/",
+      "pad_naam": "Appelpad",
+      "pad_lengte": 11.47,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-12-15-Appelpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/assenradepad/",
+      "pad_naam": "Assenradepad",
+      "pad_lengte": 12.38,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-05-03Assenradepad.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/avervoorderpad/",
+      "pad_naam": "Avervoorderpad",
+      "pad_lengte": 14.47,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-06-08-Avervoorderpad.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/baanbrekerpad/",
+      "pad_naam": "Baanbrekerpad",
+      "pad_lengte": 13.96,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-12-23-Baanbrekerpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/babborgapad/",
+      "pad_naam": "Babborgapad",
+      "pad_lengte": 12.05,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-09-21_Babborgapad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/batouwepad/",
+      "pad_naam": "Batouwepad",
+      "pad_lengte": 18.05,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2015-07-09-Batouwepad_Marspad_klein.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/beek-en-bultpad/",
+      "pad_naam": "Beek- en Bultpad",
+      "pad_lengte": 13.44,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-02-22-Beek-en-Bultpad_200dpi-2.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/beekweidenpad/",
+      "pad_naam": "Beekweidenpad",
+      "pad_lengte": 19.41,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-04-29_Beekweidenpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/bekbergerpad/",
+      "pad_naam": "Bekbergerpad",
+      "pad_lengte": 18.11,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2019-10-14_Bekbergerpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/benedeneindsepad/",
+      "pad_naam": "Benedeneindsepad",
+      "pad_lengte": 12.55,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/KIDS-klompenpaden-DEF-Downloadbestand-incl-instructie-pagina.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/benedeneindsepad-kids/",
+      "pad_naam": "Benedeneindsepad kids",
+      "pad_lengte": 7.71,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Benedeneindsepad-KIDS-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/beukenburgerpad/",
+      "pad_naam": "Beukenburgerpad",
+      "pad_lengte": 13.93,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Beukenburgerpad-web.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/bevermeersepad/",
+      "pad_naam": "Bevermeersepad",
+      "pad_lengte": 10.13,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-12-07-Bevermeersepad-600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/boereneschpad/",
+      "pad_naam": "Boereneschpad",
+      "pad_lengte": 29.43,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2017-03-06-Boereneschpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/breeschoterpad/",
+      "pad_naam": "Breeschoterpad",
+      "pad_lengte": 6.3,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Breeschoterpad-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/breukerengpad/",
+      "pad_naam": "Breukerengpad",
+      "pad_lengte": 7.27,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2018-02-28-Harsloerpad_600dpi-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/broekerpad/",
+      "pad_naam": "Broekerpad",
+      "pad_lengte": 6.91,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/195-broekerpad.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/cotlandenpad/",
+      "pad_naam": "Cotlandenpad",
+      "pad_lengte": 13.18,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Cotlandenpad-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/daatselaarsepad/",
+      "pad_naam": "Daatselaarsepad",
+      "pad_lengte": 11.08,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Daatselaarsepad-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpan/dashorsterpad/",
+      "pad_naam": "Dashorsterpad",
+      "pad_lengte": 12.59,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/192-dashorsterpad.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/doddendaelpad/",
+      "pad_naam": "Doddendaelpad",
+      "pad_lengte": 16.3,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-03-19-Doddendaelpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/doesburgermolenpad/",
+      "pad_naam": "Doesburgermolenpad",
+      "pad_lengte": 18.07,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2017-12-06-Doesburgermolenpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/dorenweertsepad/",
+      "pad_naam": "Dorenweertsepad",
+      "pad_lengte": 18.23,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-04-21Dorenweertsepad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/eekterpad/",
+      "pad_naam": "Eekterpad",
+      "pad_lengte": 10.97,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-10-15-Eekterpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/eendenkooienpad/",
+      "pad_naam": "Eendenkooienpad",
+      "pad_lengte": 20.97,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Eendenkooienpad-routekaart-2020-2.pdf"
+    },
+    {
+      "pad_url": "",
+      "pad_naam": "Eertbeekse beekpad",
+      "pad_lengte": 18.7,
+      "pad_pdf_url": ""
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/eeskooterpad/",
+      "pad_naam": "Eeskooterpad 2",
+      "pad_lengte": 14.83,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2018-02-14-Eeskooterpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "",
+      "pad_naam": "Eeskooterpad",
+      "pad_lengte": 6.9,
+      "pad_pdf_url": ""
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/elsvoorderpad/",
+      "pad_naam": "Elsvoorderpad",
+      "pad_lengte": 15.36,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-02-01_Elsvoorderpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/engelenburgerpad",
+      "pad_naam": "Engelenburgerpad",
+      "pad_lengte": 5.04,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Kaart-Engelenburgerpad.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/engelroderpad/",
+      "pad_naam": "Engelroderpad",
+      "pad_lengte": 30.36,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Engelroderpad-digfolder-LR-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/errekomsepad/",
+      "pad_naam": "Errekomsepad",
+      "pad_lengte": 19.44,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-03-18_Errekomsepad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/fliertpad/",
+      "pad_naam": "Fliertpad",
+      "pad_lengte": 17.92,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-02-01_Fliertpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/ganderpad/",
+      "pad_naam": "Ganderpad",
+      "pad_lengte": 18.19,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2019-05-27-Ganderpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "",
+      "pad_naam": "Gerrit Achterbergpad",
+      "pad_lengte": 25.45,
+      "pad_pdf_url": ""
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/glindhorsterpad/",
+      "pad_naam": "Glindhorsterpad",
+      "pad_lengte": 11.46,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-04-14_Glindhorsterpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/goilberdingerpad/",
+      "pad_naam": "Goilberdingerpad",
+      "pad_lengte": 23.7,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-06-04-Goilberdingerpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/graveslootpad/",
+      "pad_naam": "Gravenslootpad",
+      "pad_lengte": 7.4,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Graveslootpad-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/griezeveensepad/",
+      "pad_naam": "Griezeveensepad",
+      "pad_lengte": 18.92,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-02-22_Griezeveensepad_A4-folder-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/grift-en-graftenpad/",
+      "pad_naam": "Grift- en Graftenpad",
+      "pad_lengte": 14.72,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Grift-en-Graftenpad-webversie.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/hamarithapad/",
+      "pad_naam": "Hamarithapad",
+      "pad_lengte": 16.24,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-12-23-Hamarithapad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/harscamperpad/",
+      "pad_naam": "Harscamperpad",
+      "pad_lengte": 14.97,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-6-15_Harscamperpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/harsloerpad/",
+      "pad_naam": "Harsloerpad",
+      "pad_lengte": 14.45,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-03-31_Harsloerpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/hartensepad/",
+      "pad_naam": "Hartensepad",
+      "pad_lengte": 16.54,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Hartensepad-A4-folder-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/heuzesepad/",
+      "pad_naam": "Heuzesepad",
+      "pad_lengte": 16.14,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-09-22-Heuzesepad-A4-folder-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/hiensepad/",
+      "pad_naam": "Hiensepad",
+      "pad_lengte": 18.12,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Hiensepad-digfolder-groot-LR.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/hoenwaardsepad/",
+      "pad_naam": "Hoenwaardsepad",
+      "pad_lengte": 10.61,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-5-30_Hoenwaardsepad-A4-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/hoeverveldpad/",
+      "pad_naam": "Hoeverveldpad",
+      "pad_lengte": 22.06,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-05-03Hoeverveldpadkaart-tijdelijke-omleiding.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/holhorsterpad/",
+      "pad_naam": "Holhorsterpad",
+      "pad_lengte": 14.06,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2016-03-30-Holhorsterpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/horsthoekerpad/",
+      "pad_naam": "Horsthoekerpad",
+      "pad_lengte": 22.78,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/19-7-2022_Horsthoekerpad200dpi-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/houtdijkenpad/",
+      "pad_naam": "Houtdijkenpad",
+      "pad_lengte": 13.21,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Houtdijkenpad-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/huinerpad/",
+      "pad_naam": "Huinerpad",
+      "pad_lengte": 21.36,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2017-11-27-Huinerpad_A4.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/husloapad/",
+      "pad_naam": "Husloapad",
+      "pad_lengte": 25.48,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-06-28_Husloapad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/jordenpad/",
+      "pad_naam": "Jordenpad",
+      "pad_lengte": 23.68,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-12-23-Jordenpad_tmp_Dijkverzwaring_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/jufferpad/",
+      "pad_naam": "Jufferpad",
+      "pad_lengte": 17.66,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Jufferpad-webversie-2.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/kandiapad/",
+      "pad_naam": "Kandiapad",
+      "pad_lengte": 20.11,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-06-28-Kandiapad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/klarenbeeksepad/",
+      "pad_naam": "Klarenbeeksepad",
+      "pad_lengte": 16.44,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-11-09-Klarenbeeksepad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/klompenmakerspad/",
+      "pad_naam": "Klompenmakerspad",
+      "pad_lengte": 20.1,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2018-04-13-Klompenmakerspad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/kopermolenpad/",
+      "pad_naam": "Kopermolenpad",
+      "pad_lengte": 13.62,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2016-07-13-Kopermolenpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/kreelsepad/",
+      "pad_naam": "Kreelsepad",
+      "pad_lengte": 27.3,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-09-01-Kreelsepad-A4-folder-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/kruishaarderpad/",
+      "pad_naam": "Kruishaarderpad",
+      "pad_lengte": 18.43,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-05-04-Kruishaarderpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/kuilenburgerpad/",
+      "pad_naam": "Kuilenburgerpad",
+      "pad_lengte": 16.67,
+      "pad_pdf_url": "https://bit.ly/3jfmNGw"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/laaksepad/",
+      "pad_naam": "Laaksepad",
+      "pad_lengte": 16.49,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2016-01-27-Laaksepad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/laaksepad-kids/",
+      "pad_naam": "Laaksepad KIDS",
+      "pad_lengte": 3,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Doeboekje-Laaksepad-KIDS.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/laorns-enkenpad/",
+      "pad_naam": "Laorns Enkenpad",
+      "pad_lengte": 26.09,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Laorns-Enkenpad-Folder-LR.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/lauwsepad/",
+      "pad_naam": "Lauwsepad",
+      "pad_lengte": 17.25,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2015-05-21-Lauwsepad_600-dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/leestensche-broekpad/",
+      "pad_naam": "Leestensche broekpad",
+      "pad_lengte": 21.71,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-08-26-Leestensche-Broekpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/leidschehoevenpad/",
+      "pad_naam": "Leidschehoevenpad",
+      "pad_lengte": 20.8,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-12-23-Leidschehoevenpad_200dpi-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/leuvenschepad/",
+      "pad_naam": "Leuvenschepad",
+      "pad_lengte": 17.92,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2018-12-05-Leuvenschepad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/lint-en-liniepad/",
+      "pad_naam": "Lint- en Liniepad",
+      "pad_lengte": 9.76,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Lint-en-Liniepad-kaart-nieuw-10-04-2018.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/loenense-enkenpad/",
+      "pad_naam": "Loenense Enkenpad",
+      "pad_lengte": 13.11,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2016-05-30-Loenense-Enkenpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/loobrinkerpad/",
+      "pad_naam": "Loobrinkerpad",
+      "pad_lengte": 11.52,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2014-06-06_Loobrinkerpad_a4.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/Markluiderpad/",
+      "pad_naam": "Markluiderpad",
+      "pad_lengte": 16.13,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2018-06-04-Markluiderpad-met-alternatieve-route-A4.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/marspad/",
+      "pad_naam": "Marspad",
+      "pad_lengte": 14.83,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2019-12-03-Batouwepad_Marspad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/meulunterenpad/",
+      "pad_naam": "Meulunterenpad",
+      "pad_lengte": 27.26,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2017-02-17-Meulunterenpad3.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/moas-wetteringpad/",
+      "pad_naam": "Moas-Wetteringpad",
+      "pad_lengte": 13.48,
+      "pad_pdf_url": "https://bit.ly/34RTAxZ"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/molenbeeksepad/",
+      "pad_naam": "Molenbeeksepad",
+      "pad_lengte": 21.07,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-04-14-Molenbeeksepad_A4-folder-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/nederrijnsepad/",
+      "pad_naam": "Nederrijnsepad",
+      "pad_lengte": 30.93,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Nederrijnsepad-A4-folder-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/nederwoudsepad/",
+      "pad_naam": "Nederwoudsepad",
+      "pad_lengte": 14.08,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-04-15-Nederwoudsepad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/nesserpad/",
+      "pad_naam": "Nesserpad",
+      "pad_lengte": 13.87,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Nesserpad-AvdB-19-nov-gecentreerd_compressed-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/netelenburchpad/",
+      "pad_naam": "Netelenburchpad",
+      "pad_lengte": 8.02,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Netelenburchpad-webversie-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/niebroekerpad/",
+      "pad_naam": "Niebroekerpad",
+      "pad_lengte": 14.05,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/12-03-2021_Nienbroekerpad.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/niebroekerpad-kids/",
+      "pad_naam": "Nijbroek Kids",
+      "pad_lengte": 3.2,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Doeboekje-Niebroekerpad-KIDS.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/norderpad/",
+      "pad_naam": "Norderpad",
+      "pad_lengte": 12.27,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2019-06-12_Norderpad.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/nudepad/",
+      "pad_naam": "Nudepad",
+      "pad_lengte": 11.82,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-07-22_Nudepad_600dpi-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/nywelepad/",
+      "pad_naam": "Nywelepad",
+      "pad_lengte": 20.06,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-03-01-Nywelepad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/oldenallerpad/",
+      "pad_naam": "Oldenallerpad",
+      "pad_lengte": 13.27,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2018-05-17-Oldenallerpad_600dpi_geknipt-EB.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/onderwaterpad-kids/",
+      "pad_naam": "Onderwaterpad-Kids",
+      "pad_lengte": 5.77,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Onderwaterpad-KIDS-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/oudenhorsterpad/",
+      "pad_naam": "Oudenhorsterpad",
+      "pad_lengte": 7.46,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/221-oudenhorsterpad.pdf"
+    },
+    {
+      "pad_url": "",
+      "pad_naam": "Overlangbroeksepad",
+      "pad_lengte": 13,
+      "pad_pdf_url": ""
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/paddenpad/",
+      "pad_naam": "Paddenpad",
+      "pad_lengte": 13.54,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2018-05-03_Paddenpad_nieuw.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/paradijspad/",
+      "pad_naam": "Paradijspad",
+      "pad_lengte": 7.17,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Paradijspad-A4-200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/pelserpad/",
+      "pad_naam": "Pelserpad",
+      "pad_lengte": 21.71,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2017-02-07-Pelserpad_nieuw_knip1-met-overstap.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/Plaggenstekerspad/",
+      "pad_naam": "Plaggenstekerspad",
+      "pad_lengte": 12.47,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2017-03-16-Plaggenstekerspad_600dpi-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/reckense-markepad/",
+      "pad_naam": "Reckensche Markepad",
+      "pad_lengte": 20.87,
+      "pad_pdf_url": "https://bit.ly/3h5YF9T"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/rhenoijschepad/",
+      "pad_naam": "Rhenoijschepad",
+      "pad_lengte": 16.51,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2016-11-04-Rhenoijschepad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/rijnstrangenpad/",
+      "pad_naam": "Rijnstrangenpad",
+      "pad_lengte": 15.97,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-02-22_Rijnstrangenpad_A4-folder-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/rijnweidepad/",
+      "pad_naam": "Rijnweidepad",
+      "pad_lengte": 13.72,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-06-08-Rijnweidepad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/rosandepad/",
+      "pad_naam": "Rosandepad",
+      "pad_lengte": 14.42,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2018-05-04-Rosandepad_600dpi_geknipt-EB-HR.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/schaarsbergenpad",
+      "pad_naam": "Schaarsbergenpad",
+      "pad_lengte": 14.09,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-06-02_2-A4-folder-Schaarsbergenpad-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/schaverensepad/",
+      "pad_naam": "Schaverensepad",
+      "pad_lengte": 10.82,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/229-schaverensepad.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/schutpad/",
+      "pad_naam": "Schutpad",
+      "pad_lengte": 4.81,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Schutpad-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/slagmaatpad/",
+      "pad_naam": "Slagmaatpad",
+      "pad_lengte": 8.83,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Slagmaatpad-volwassen-versie-13-juni.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/slagmaatpad-kids/",
+      "pad_naam": "Slagmaatpad kids",
+      "pad_lengte": 8.81,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Slagmaatpad-KIDS-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/snorrenhoefpad/",
+      "pad_naam": "Snorrenhoefpad",
+      "pad_lengte": 10.32,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Snorrenhoefpad-web.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/speuldepad/",
+      "pad_naam": "Speuldepad",
+      "pad_lengte": 23.64,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/15-06-2020_Speuldepad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/staickheimerpad/",
+      "pad_naam": "Staickheimerpad",
+      "pad_lengte": 22.12,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Staickheimerpad-digfolder-groot-LR.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/stoetwegenpad/",
+      "pad_naam": "Stoetwegenpad",
+      "pad_lengte": 15.19,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Stoetwegenpad-webversie.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/stoutenburgerpad/",
+      "pad_naam": "Stoutenburgerpad",
+      "pad_lengte": 16.54,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Stoutenburgerpad-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "",
+      "pad_naam": "Stoutenburgpad",
+      "pad_lengte": 5.38,
+      "pad_pdf_url": ""
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/teisterbantpad",
+      "pad_naam": "Teisterbantpad",
+      "pad_lengte": 17.33,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-04-08-Teisterbantpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/terbroeksepad/",
+      "pad_naam": "Terbroeksepad",
+      "pad_lengte": 19.14,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-03-02_Terbroeksepad_A4-folder-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/termatenpad/",
+      "pad_naam": "Termatenpad",
+      "pad_lengte": 23.07,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Termatenpad-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/teylingenpad/",
+      "pad_naam": "Teylingenpad",
+      "pad_lengte": 15.43,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Teylingenpad-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/thornspiccerpad/",
+      "pad_naam": "Thornspiccerpad",
+      "pad_lengte": 24.2,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-07-22_Thornspiccerpad.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/tremelepad/",
+      "pad_naam": "Tremelepad",
+      "pad_lengte": 13.88,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-06-17-Tremelepad-A4-folder-200.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/turfvelderpad/",
+      "pad_naam": "Turfvelderpad",
+      "pad_lengte": 14.45,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-03-07-Turfvelderpad-A4-folder-600.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/tuylermarkerpad/",
+      "pad_naam": "Tuylermarkerpad",
+      "pad_lengte": 11.89,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2018-11-12-Tuylermarkerpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "",
+      "pad_naam": "Uchtapad",
+      "pad_lengte": 19.64,
+      "pad_pdf_url": ""
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/uddelermeerpad/",
+      "pad_naam": "Uddelermeerpad",
+      "pad_lengte": 18.72,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-06-23-Uddelermeerpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/ugcheler-markepad/",
+      "pad_naam": "Ugcheler Markepad",
+      "pad_lengte": 12.19,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-06-09_Ugcheler_Markepad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/valkschepad/",
+      "pad_naam": "Valkschepad",
+      "pad_lengte": 13.84,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-06-08-Valkschepad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/veendijkpad/",
+      "pad_naam": "Veendijkpad",
+      "pad_lengte": 12,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Veendijkpad-omleiding.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/vosbergenpad/",
+      "pad_naam": "Vosbergenpad",
+      "pad_lengte": 13.95,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-02-24Vosbergerpad_a4.pdf target="
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/vredelantsepad/",
+      "pad_naam": "Vredelantsepad",
+      "pad_lengte": 10.66,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Vredelantsepadweb.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/vreepad/",
+      "pad_naam": "Vreepad",
+      "pad_lengte": 18.98,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-11-18-Vreepad-200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/vrijheijtpad/",
+      "pad_naam": "Vrijheijtpad",
+      "pad_lengte": 15.1,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2022-07-04-Vrijheijtpad-Digifolder-200.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/vurensche-polderpad/",
+      "pad_naam": "Vurensche polderpad",
+      "pad_lengte": 21.77,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2021-12-23-Vurensche-Polderpad_tmp_dijkverzwaring_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/vuylcoppad/",
+      "pad_naam": "Vuylcoppad",
+      "pad_lengte": 11.17,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/De-Blokhovense-Polder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/wageningse-engpad/",
+      "pad_naam": "Wageningse Engpad",
+      "pad_lengte": 17.06,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2020-04-15-Wageningse-Engpad_200dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/wageningse-engpad-kids/",
+      "pad_naam": "Wageningse Engpad kids",
+      "pad_lengte": 4.21,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/kaart-crop-Wageningse-Engpad-KIDS.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/wiseperpad/",
+      "pad_naam": "Wiseperpad",
+      "pad_lengte": 22.18,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2019-03-07-Wiseperpad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/woldermarkerpad/",
+      "pad_naam": "Woldermarkerpad",
+      "pad_lengte": 6.55,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/230-woldermarkerpad.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/zandslagenpad/",
+      "pad_naam": "Zandslagenpad",
+      "pad_lengte": 13.88,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2017-05-09-Zandslagenpad_Alemschepad_600dpi-1.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/zeegsepad/",
+      "pad_naam": "Zeegsepad",
+      "pad_lengte": 9.71,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/2018-01-30-Zeegsepad_600dpi.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/zeldertsepad/",
+      "pad_naam": "Zeldertsepad",
+      "pad_lengte": 11,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Zeldertsepad-digitale-folder.pdf"
+    },
+    {
+      "pad_url": "https://klompenpaden.nl/klompenpad/zoddenpad/",
+      "pad_naam": "Zoddenpad",
+      "pad_lengte": 17.13,
+      "pad_pdf_url": "https://klompenpaden.nl/wp-content/uploads/Tienhoven.pdf"
+    }
+  ]
+}
