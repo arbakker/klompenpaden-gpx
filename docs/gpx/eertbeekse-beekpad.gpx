@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>18.7</ogr:lengte>
     <ogr:naam>Eertbeekse beekpad</ogr:naam>
+    <ogr:slug>eertbeekse-beekpad</ogr:slug>
     <ogr:url></ogr:url>
   </extensions>
   <trkseg>

@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>7.4</ogr:lengte>
     <ogr:naam>Gravenslootpad</ogr:naam>
+    <ogr:slug>gravenslootpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/graveslootpad/</ogr:url>
   </extensions>
   <trkseg>

@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>12.55</ogr:lengte>
     <ogr:naam>Benedeneindsepad</ogr:naam>
+    <ogr:slug>benedeneindsepad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/benedeneindsepad/</ogr:url>
   </extensions>
   <trkseg>

@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>20.8</ogr:lengte>
     <ogr:naam>Leidschehoevenpad</ogr:naam>
+    <ogr:slug>leidschehoevenpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/leidschehoevenpad/</ogr:url>
   </extensions>
   <trkseg>

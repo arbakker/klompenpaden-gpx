@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>11.17</ogr:lengte>
     <ogr:naam>Vuylcoppad</ogr:naam>
+    <ogr:slug>vuylcoppad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/vuylcoppad/</ogr:url>
   </extensions>
   <trkseg>

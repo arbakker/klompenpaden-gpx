@@ -1,1733 +1,2754 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Klompenpaden GPX Bestanden</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="GPX bestanden voor Klompenpaden">
-        <meta name="keywords" content="GPX,hike,klompenpad">
-        <meta name="author" content="Anton Bakker">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://vanillacss.com/vanilla.css">
+    <meta charset="UTF-8" />
+    <meta name="description" content="GPX bestanden voor Klompenpaden" />
+    <meta name="keywords" content="GPX,hike,klompenpad" />
+    <meta name="author" content="Anton Bakker" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://vanillacss.com/vanilla.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/ol@6.9.0/ol.css"
+      rel="stylesheet"
+    />
+    <script type="module" src="./script.js"></script>
+    <style>
+      .full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+hr{
+  margin-top:0.5em;
+  margin-bottom:0.5em;
+}
+    </style>
   </head>
   <body>
-    <h1>Klompenpaden GPX Bestanden</h1>
 
+    <div style="padding:1em;"><h1 style="display: inline; margin-right: 0.5em">Klompenpaden GPX Bestanden</h1><a href="./index.html#home">#</a></div>
     
-    <hr>
-    <span>
-    <h2 id="achterwooldsepad" style="display:inline;margin-right:0.5em;">
-      Achterwooldsepad</h2><a href="./index.html#achterwooldsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/achterwooldsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-09-23-Achterwooldsepad-liggend_200dpi-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/achterwooldsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.04 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="aderwinkelpad" style="display:inline;margin-right:0.5em;">
-      Aderwinkelpad</h2><a href="./index.html#aderwinkelpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/aderwinkelpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/KaartAderwinkelpadWebversie.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/aderwinkelpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.32 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="albapad" style="display:inline;margin-right:0.5em;">
-      Albapad</h2><a href="./index.html#albapad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/albapad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-04-07-Albapad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/albapad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>15.79 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="alemschepad" style="display:inline;margin-right:0.5em;">
-      Alemschepad</h2><a href="./index.html#alemschepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/alemschepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2017-05-09-Zandslagenpad_Alemschepad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/alemschepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>8.86 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="ambts-en-rijkspad" style="display:inline;margin-right:0.5em;">
-      Ambts- en Rijkspad</h2><a href="./index.html#ambts-en-rijkspad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/ambts-en-rijkspad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-05-21-Ambts-en-Rijkspad_A4.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/ambts-en-rijkspad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>21.52 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="appelpad" style="display:inline;margin-right:0.5em;">
-      Appelpad</h2><a href="./index.html#appelpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/appelpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-12-15-Appelpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/appelpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>11.47 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="assenradepad" style="display:inline;margin-right:0.5em;">
-      Assenradepad</h2><a href="./index.html#assenradepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/assenradepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-05-03Assenradepad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/assenradepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>12.38 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="avervoorderpad" style="display:inline;margin-right:0.5em;">
-      Avervoorderpad</h2><a href="./index.html#avervoorderpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/avervoorderpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-06-08-Avervoorderpad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/avervoorderpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.47 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="baanbrekerpad" style="display:inline;margin-right:0.5em;">
-      Baanbrekerpad</h2><a href="./index.html#baanbrekerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/baanbrekerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-12-23-Baanbrekerpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/baanbrekerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.96 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="babborgapad" style="display:inline;margin-right:0.5em;">
-      Babborgapad</h2><a href="./index.html#babborgapad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/babborgapad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-09-21_Babborgapad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/babborgapad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>12.05 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="batouwepad" style="display:inline;margin-right:0.5em;">
-      Batouwepad</h2><a href="./index.html#batouwepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/batouwepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2015-07-09-Batouwepad_Marspad_klein.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/batouwepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.05 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="beek-en-bultpad" style="display:inline;margin-right:0.5em;">
-      Beek- en Bultpad</h2><a href="./index.html#beek-en-bultpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/beek-en-bultpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-02-22-Beek-en-Bultpad_200dpi-2.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/beek-en-bultpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.44 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="beekweidenpad" style="display:inline;margin-right:0.5em;">
-      Beekweidenpad</h2><a href="./index.html#beekweidenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/beekweidenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-04-29_Beekweidenpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/beekweidenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>19.41 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="bekbergerpad" style="display:inline;margin-right:0.5em;">
-      Bekbergerpad</h2><a href="./index.html#bekbergerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/bekbergerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2019-10-14_Bekbergerpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/bekbergerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.11 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="benedeneindsepad" style="display:inline;margin-right:0.5em;">
-      Benedeneindsepad</h2><a href="./index.html#benedeneindsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/benedeneindsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/KIDS-klompenpaden-DEF-Downloadbestand-incl-instructie-pagina.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/benedeneindsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>12.55 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="benedeneindsepad-kids" style="display:inline;margin-right:0.5em;">
-      Benedeneindsepad kids</h2><a href="./index.html#benedeneindsepad-kids">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/benedeneindsepad-kids/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Benedeneindsepad-KIDS-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/benedeneindsepad-kids.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>7.71 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="beukenburgerpad" style="display:inline;margin-right:0.5em;">
-      Beukenburgerpad</h2><a href="./index.html#beukenburgerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/beukenburgerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Beukenburgerpad-web.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/beukenburgerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.93 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="bevermeersepad" style="display:inline;margin-right:0.5em;">
-      Bevermeersepad</h2><a href="./index.html#bevermeersepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/bevermeersepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-12-07-Bevermeersepad-600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/bevermeersepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>10.13 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="boereneschpad" style="display:inline;margin-right:0.5em;">
-      Boereneschpad</h2><a href="./index.html#boereneschpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/boereneschpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2017-03-06-Boereneschpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/boereneschpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>29.43 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="breeschoterpad" style="display:inline;margin-right:0.5em;">
-      Breeschoterpad</h2><a href="./index.html#breeschoterpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/breeschoterpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Breeschoterpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/breeschoterpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>6.3 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="breukerengpad" style="display:inline;margin-right:0.5em;">
-      Breukerengpad</h2><a href="./index.html#breukerengpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/breukerengpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2018-02-28-Harsloerpad_600dpi-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/breukerengpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>7.27 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="broekerpad" style="display:inline;margin-right:0.5em;">
-      Broekerpad</h2><a href="./index.html#broekerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/broekerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/195-broekerpad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/broekerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>6.91 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="cotlandenpad" style="display:inline;margin-right:0.5em;">
-      Cotlandenpad</h2><a href="./index.html#cotlandenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/cotlandenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Cotlandenpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/cotlandenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.18 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="daatselaarsepad" style="display:inline;margin-right:0.5em;">
-      Daatselaarsepad</h2><a href="./index.html#daatselaarsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/daatselaarsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Daatselaarsepad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/daatselaarsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>11.08 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="dashorsterpad" style="display:inline;margin-right:0.5em;">
-      Dashorsterpad</h2><a href="./index.html#dashorsterpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpan/dashorsterpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/192-dashorsterpad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/dashorsterpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>12.59 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="doddendaelpad" style="display:inline;margin-right:0.5em;">
-      Doddendaelpad</h2><a href="./index.html#doddendaelpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/doddendaelpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-03-19-Doddendaelpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/doddendaelpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>16.3 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="doesburgermolenpad" style="display:inline;margin-right:0.5em;">
-      Doesburgermolenpad</h2><a href="./index.html#doesburgermolenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/doesburgermolenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2017-12-06-Doesburgermolenpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/doesburgermolenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.07 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="dorenweertsepad" style="display:inline;margin-right:0.5em;">
-      Dorenweertsepad</h2><a href="./index.html#dorenweertsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/dorenweertsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-04-21Dorenweertsepad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/dorenweertsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.23 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="eekterpad" style="display:inline;margin-right:0.5em;">
-      Eekterpad</h2><a href="./index.html#eekterpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/eekterpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-10-15-Eekterpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/eekterpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>10.97 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="eendenkooienpad" style="display:inline;margin-right:0.5em;">
-      Eendenkooienpad</h2><a href="./index.html#eendenkooienpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/eendenkooienpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Eendenkooienpad-routekaart-2020-2.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/eendenkooienpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>20.97 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="eertbeekse-beekpad" style="display:inline;margin-right:0.5em;">
-      Eertbeekse beekpad</h2><a href="./index.html#eertbeekse-beekpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/eertbeekse-beekpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.7 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="eeskooterpad-2" style="display:inline;margin-right:0.5em;">
-      Eeskooterpad 2</h2><a href="./index.html#eeskooterpad-2">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/eeskooterpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2018-02-14-Eeskooterpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/eeskooterpad-2.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.83 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="eeskooterpad" style="display:inline;margin-right:0.5em;">
-      Eeskooterpad</h2><a href="./index.html#eeskooterpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/eeskooterpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>6.9 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="elsvoorderpad" style="display:inline;margin-right:0.5em;">
-      Elsvoorderpad</h2><a href="./index.html#elsvoorderpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/elsvoorderpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-02-01_Elsvoorderpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/elsvoorderpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>15.36 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="engelenburgerpad" style="display:inline;margin-right:0.5em;">
-      Engelenburgerpad</h2><a href="./index.html#engelenburgerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/engelenburgerpad" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Kaart-Engelenburgerpad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/engelenburgerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>5.04 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="engelroderpad" style="display:inline;margin-right:0.5em;">
-      Engelroderpad</h2><a href="./index.html#engelroderpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/engelroderpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Engelroderpad-digfolder-LR-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/engelroderpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>30.36 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="errekomsepad" style="display:inline;margin-right:0.5em;">
-      Errekomsepad</h2><a href="./index.html#errekomsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/errekomsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-03-18_Errekomsepad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/errekomsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>19.44 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="fliertpad" style="display:inline;margin-right:0.5em;">
-      Fliertpad</h2><a href="./index.html#fliertpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/fliertpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-02-01_Fliertpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/fliertpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>17.92 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="ganderpad" style="display:inline;margin-right:0.5em;">
-      Ganderpad</h2><a href="./index.html#ganderpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/ganderpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2019-05-27-Ganderpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/ganderpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.19 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="gerrit-achterbergpad" style="display:inline;margin-right:0.5em;">
-      Gerrit Achterbergpad</h2><a href="./index.html#gerrit-achterbergpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/gerrit-achterbergpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>25.45 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="glindhorsterpad" style="display:inline;margin-right:0.5em;">
-      Glindhorsterpad</h2><a href="./index.html#glindhorsterpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/glindhorsterpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-04-14_Glindhorsterpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/glindhorsterpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>11.46 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="goilberdingerpad" style="display:inline;margin-right:0.5em;">
-      Goilberdingerpad</h2><a href="./index.html#goilberdingerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/goilberdingerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-06-04-Goilberdingerpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/goilberdingerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>23.7 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="gravenslootpad" style="display:inline;margin-right:0.5em;">
-      Gravenslootpad</h2><a href="./index.html#gravenslootpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/graveslootpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Graveslootpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/gravenslootpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>7.4 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="griezeveensepad" style="display:inline;margin-right:0.5em;">
-      Griezeveensepad</h2><a href="./index.html#griezeveensepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/griezeveensepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-02-22_Griezeveensepad_A4-folder-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/griezeveensepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.92 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="grift-en-graftenpad" style="display:inline;margin-right:0.5em;">
-      Grift- en Graftenpad</h2><a href="./index.html#grift-en-graftenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/grift-en-graftenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Grift-en-Graftenpad-webversie.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/grift-en-graftenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.72 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="hamarithapad" style="display:inline;margin-right:0.5em;">
-      Hamarithapad</h2><a href="./index.html#hamarithapad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/hamarithapad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-12-23-Hamarithapad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/hamarithapad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>16.24 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="harscamperpad" style="display:inline;margin-right:0.5em;">
-      Harscamperpad</h2><a href="./index.html#harscamperpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/harscamperpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-6-15_Harscamperpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/harscamperpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.97 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="harsloerpad" style="display:inline;margin-right:0.5em;">
-      Harsloerpad</h2><a href="./index.html#harsloerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/harsloerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-03-31_Harsloerpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/harsloerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.45 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="hartensepad" style="display:inline;margin-right:0.5em;">
-      Hartensepad</h2><a href="./index.html#hartensepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/hartensepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Hartensepad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/hartensepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>16.54 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="heuzesepad" style="display:inline;margin-right:0.5em;">
-      Heuzesepad</h2><a href="./index.html#heuzesepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/heuzesepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-09-22-Heuzesepad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/heuzesepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>16.14 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="hiensepad" style="display:inline;margin-right:0.5em;">
-      Hiensepad</h2><a href="./index.html#hiensepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/hiensepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Hiensepad-digfolder-groot-LR.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/hiensepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.12 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="hoenwaardsepad" style="display:inline;margin-right:0.5em;">
-      Hoenwaardsepad</h2><a href="./index.html#hoenwaardsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/hoenwaardsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-5-30_Hoenwaardsepad-A4-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/hoenwaardsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>10.61 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="hoeverveldpad" style="display:inline;margin-right:0.5em;">
-      Hoeverveldpad</h2><a href="./index.html#hoeverveldpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/hoeverveldpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-05-03Hoeverveldpadkaart-tijdelijke-omleiding.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/hoeverveldpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>22.06 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="holhorsterpad" style="display:inline;margin-right:0.5em;">
-      Holhorsterpad</h2><a href="./index.html#holhorsterpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/holhorsterpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2016-03-30-Holhorsterpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/holhorsterpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.06 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="horsthoekerpad" style="display:inline;margin-right:0.5em;">
-      Horsthoekerpad</h2><a href="./index.html#horsthoekerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/horsthoekerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/19-7-2022_Horsthoekerpad200dpi-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/horsthoekerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>22.78 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="houtdijkenpad" style="display:inline;margin-right:0.5em;">
-      Houtdijkenpad</h2><a href="./index.html#houtdijkenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/houtdijkenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Houtdijkenpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/houtdijkenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.21 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="huinerpad" style="display:inline;margin-right:0.5em;">
-      Huinerpad</h2><a href="./index.html#huinerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/huinerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2017-11-27-Huinerpad_A4.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/huinerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>21.36 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="husloapad" style="display:inline;margin-right:0.5em;">
-      Husloapad</h2><a href="./index.html#husloapad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/husloapad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-06-28_Husloapad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/husloapad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>25.48 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="jordenpad" style="display:inline;margin-right:0.5em;">
-      Jordenpad</h2><a href="./index.html#jordenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/jordenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-12-23-Jordenpad_tmp_Dijkverzwaring_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/jordenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>23.68 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="jufferpad" style="display:inline;margin-right:0.5em;">
-      Jufferpad</h2><a href="./index.html#jufferpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/jufferpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Jufferpad-webversie-2.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/jufferpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>17.66 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="kandiapad" style="display:inline;margin-right:0.5em;">
-      Kandiapad</h2><a href="./index.html#kandiapad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/kandiapad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-06-28-Kandiapad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/kandiapad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>20.11 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="klarenbeeksepad" style="display:inline;margin-right:0.5em;">
-      Klarenbeeksepad</h2><a href="./index.html#klarenbeeksepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/klarenbeeksepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-11-09-Klarenbeeksepad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/klarenbeeksepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>16.44 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="klompenmakerspad" style="display:inline;margin-right:0.5em;">
-      Klompenmakerspad</h2><a href="./index.html#klompenmakerspad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/klompenmakerspad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2018-04-13-Klompenmakerspad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/klompenmakerspad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>20.1 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="kopermolenpad" style="display:inline;margin-right:0.5em;">
-      Kopermolenpad</h2><a href="./index.html#kopermolenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/kopermolenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2016-07-13-Kopermolenpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/kopermolenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.62 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="kreelsepad" style="display:inline;margin-right:0.5em;">
-      Kreelsepad</h2><a href="./index.html#kreelsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/kreelsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-09-01-Kreelsepad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/kreelsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>27.3 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="kruishaarderpad" style="display:inline;margin-right:0.5em;">
-      Kruishaarderpad</h2><a href="./index.html#kruishaarderpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/kruishaarderpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-05-04-Kruishaarderpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/kruishaarderpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.43 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="kuilenburgerpad" style="display:inline;margin-right:0.5em;">
-      Kuilenburgerpad</h2><a href="./index.html#kuilenburgerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/kuilenburgerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://bit.ly/3jfmNGw" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/kuilenburgerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>16.67 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="laaksepad" style="display:inline;margin-right:0.5em;">
-      Laaksepad</h2><a href="./index.html#laaksepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/laaksepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2016-01-27-Laaksepad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/laaksepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>16.49 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="laaksepad-kids" style="display:inline;margin-right:0.5em;">
-      Laaksepad KIDS</h2><a href="./index.html#laaksepad-kids">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/laaksepad-kids/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Doeboekje-Laaksepad-KIDS.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/laaksepad-kids.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>3 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="laorns-enkenpad" style="display:inline;margin-right:0.5em;">
-      Laorns Enkenpad</h2><a href="./index.html#laorns-enkenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/laorns-enkenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Laorns-Enkenpad-Folder-LR.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/laorns-enkenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>26.09 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="lauwsepad" style="display:inline;margin-right:0.5em;">
-      Lauwsepad</h2><a href="./index.html#lauwsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/lauwsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2015-05-21-Lauwsepad_600-dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/lauwsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>17.25 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="leestensche-broekpad" style="display:inline;margin-right:0.5em;">
-      Leestensche broekpad</h2><a href="./index.html#leestensche-broekpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/leestensche-broekpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-08-26-Leestensche-Broekpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/leestensche-broekpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>21.71 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="leidschehoevenpad" style="display:inline;margin-right:0.5em;">
-      Leidschehoevenpad</h2><a href="./index.html#leidschehoevenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/leidschehoevenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-12-23-Leidschehoevenpad_200dpi-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/leidschehoevenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>20.8 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="leuvenschepad" style="display:inline;margin-right:0.5em;">
-      Leuvenschepad</h2><a href="./index.html#leuvenschepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/leuvenschepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2018-12-05-Leuvenschepad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/leuvenschepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>17.92 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="lint-en-liniepad" style="display:inline;margin-right:0.5em;">
-      Lint- en Liniepad</h2><a href="./index.html#lint-en-liniepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/lint-en-liniepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Lint-en-Liniepad-kaart-nieuw-10-04-2018.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/lint-en-liniepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>9.76 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="loenense-enkenpad" style="display:inline;margin-right:0.5em;">
-      Loenense Enkenpad</h2><a href="./index.html#loenense-enkenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/loenense-enkenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2016-05-30-Loenense-Enkenpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/loenense-enkenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.11 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="loobrinkerpad" style="display:inline;margin-right:0.5em;">
-      Loobrinkerpad</h2><a href="./index.html#loobrinkerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/loobrinkerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2014-06-06_Loobrinkerpad_a4.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/loobrinkerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>11.52 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="markluiderpad" style="display:inline;margin-right:0.5em;">
-      Markluiderpad</h2><a href="./index.html#markluiderpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/Markluiderpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2018-06-04-Markluiderpad-met-alternatieve-route-A4.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/markluiderpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>16.13 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="marspad" style="display:inline;margin-right:0.5em;">
-      Marspad</h2><a href="./index.html#marspad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/marspad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2019-12-03-Batouwepad_Marspad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/marspad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.83 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="meulunterenpad" style="display:inline;margin-right:0.5em;">
-      Meulunterenpad</h2><a href="./index.html#meulunterenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/meulunterenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2017-02-17-Meulunterenpad3.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/meulunterenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>27.26 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="moas-wetteringpad" style="display:inline;margin-right:0.5em;">
-      Moas-Wetteringpad</h2><a href="./index.html#moas-wetteringpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/moas-wetteringpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://bit.ly/34RTAxZ" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/moas-wetteringpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.48 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="molenbeeksepad" style="display:inline;margin-right:0.5em;">
-      Molenbeeksepad</h2><a href="./index.html#molenbeeksepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/molenbeeksepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-04-14-Molenbeeksepad_A4-folder-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/molenbeeksepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>21.07 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="nederrijnsepad" style="display:inline;margin-right:0.5em;">
-      Nederrijnsepad</h2><a href="./index.html#nederrijnsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/nederrijnsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Nederrijnsepad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/nederrijnsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>30.93 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="nederwoudsepad" style="display:inline;margin-right:0.5em;">
-      Nederwoudsepad</h2><a href="./index.html#nederwoudsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/nederwoudsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-04-15-Nederwoudsepad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/nederwoudsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.08 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="nesserpad" style="display:inline;margin-right:0.5em;">
-      Nesserpad</h2><a href="./index.html#nesserpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/nesserpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Nesserpad-AvdB-19-nov-gecentreerd_compressed-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/nesserpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.87 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="netelenburchpad" style="display:inline;margin-right:0.5em;">
-      Netelenburchpad</h2><a href="./index.html#netelenburchpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/netelenburchpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Netelenburchpad-webversie-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/netelenburchpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>8.02 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="niebroekerpad" style="display:inline;margin-right:0.5em;">
-      Niebroekerpad</h2><a href="./index.html#niebroekerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/niebroekerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/12-03-2021_Nienbroekerpad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/niebroekerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.05 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="nijbroek-kids" style="display:inline;margin-right:0.5em;">
-      Nijbroek Kids</h2><a href="./index.html#nijbroek-kids">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/niebroekerpad-kids/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Doeboekje-Niebroekerpad-KIDS.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/nijbroek-kids.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>3.2 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="norderpad" style="display:inline;margin-right:0.5em;">
-      Norderpad</h2><a href="./index.html#norderpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/norderpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2019-06-12_Norderpad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/norderpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>12.27 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="nudepad" style="display:inline;margin-right:0.5em;">
-      Nudepad</h2><a href="./index.html#nudepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/nudepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-07-22_Nudepad_600dpi-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/nudepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>11.82 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="nywelepad" style="display:inline;margin-right:0.5em;">
-      Nywelepad</h2><a href="./index.html#nywelepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/nywelepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-03-01-Nywelepad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/nywelepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>20.06 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="oldenallerpad" style="display:inline;margin-right:0.5em;">
-      Oldenallerpad</h2><a href="./index.html#oldenallerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/oldenallerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2018-05-17-Oldenallerpad_600dpi_geknipt-EB.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/oldenallerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.27 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="onderwaterpad-kids" style="display:inline;margin-right:0.5em;">
-      Onderwaterpad-Kids</h2><a href="./index.html#onderwaterpad-kids">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/onderwaterpad-kids/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Onderwaterpad-KIDS-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/onderwaterpad-kids.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>5.77 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="oudenhorsterpad" style="display:inline;margin-right:0.5em;">
-      Oudenhorsterpad</h2><a href="./index.html#oudenhorsterpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/oudenhorsterpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/221-oudenhorsterpad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/oudenhorsterpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>7.46 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="overlangbroeksepad" style="display:inline;margin-right:0.5em;">
-      Overlangbroeksepad</h2><a href="./index.html#overlangbroeksepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/overlangbroeksepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="paddenpad" style="display:inline;margin-right:0.5em;">
-      Paddenpad</h2><a href="./index.html#paddenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/paddenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2018-05-03_Paddenpad_nieuw.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/paddenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.54 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="paradijspad" style="display:inline;margin-right:0.5em;">
-      Paradijspad</h2><a href="./index.html#paradijspad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/paradijspad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Paradijspad-A4-200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/paradijspad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>7.17 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="pelserpad" style="display:inline;margin-right:0.5em;">
-      Pelserpad</h2><a href="./index.html#pelserpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/pelserpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2017-02-07-Pelserpad_nieuw_knip1-met-overstap.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/pelserpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>21.71 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="plaggenstekerspad" style="display:inline;margin-right:0.5em;">
-      Plaggenstekerspad</h2><a href="./index.html#plaggenstekerspad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/Plaggenstekerspad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2017-03-16-Plaggenstekerspad_600dpi-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/plaggenstekerspad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>12.47 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="reckensche-markepad" style="display:inline;margin-right:0.5em;">
-      Reckensche Markepad</h2><a href="./index.html#reckensche-markepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/reckense-markepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://bit.ly/3h5YF9T" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/reckensche-markepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>20.87 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="rhenoijschepad" style="display:inline;margin-right:0.5em;">
-      Rhenoijschepad</h2><a href="./index.html#rhenoijschepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/rhenoijschepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2016-11-04-Rhenoijschepad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/rhenoijschepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>16.51 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="rijnstrangenpad" style="display:inline;margin-right:0.5em;">
-      Rijnstrangenpad</h2><a href="./index.html#rijnstrangenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/rijnstrangenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-02-22_Rijnstrangenpad_A4-folder-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/rijnstrangenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>15.97 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="rijnweidepad" style="display:inline;margin-right:0.5em;">
-      Rijnweidepad</h2><a href="./index.html#rijnweidepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/rijnweidepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-06-08-Rijnweidepad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/rijnweidepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.72 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="rosandepad" style="display:inline;margin-right:0.5em;">
-      Rosandepad</h2><a href="./index.html#rosandepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/rosandepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2018-05-04-Rosandepad_600dpi_geknipt-EB-HR.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/rosandepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.42 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="schaarsbergenpad" style="display:inline;margin-right:0.5em;">
-      Schaarsbergenpad</h2><a href="./index.html#schaarsbergenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/schaarsbergenpad" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-06-02_2-A4-folder-Schaarsbergenpad-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/schaarsbergenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.09 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="schaverensepad" style="display:inline;margin-right:0.5em;">
-      Schaverensepad</h2><a href="./index.html#schaverensepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/schaverensepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/229-schaverensepad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/schaverensepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>10.82 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="schutpad" style="display:inline;margin-right:0.5em;">
-      Schutpad</h2><a href="./index.html#schutpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/schutpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Schutpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/schutpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>4.81 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="slagmaatpad" style="display:inline;margin-right:0.5em;">
-      Slagmaatpad</h2><a href="./index.html#slagmaatpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/slagmaatpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Slagmaatpad-volwassen-versie-13-juni.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/slagmaatpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>8.83 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="slagmaatpad-kids" style="display:inline;margin-right:0.5em;">
-      Slagmaatpad kids</h2><a href="./index.html#slagmaatpad-kids">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/slagmaatpad-kids/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Slagmaatpad-KIDS-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/slagmaatpad-kids.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>8.81 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="snorrenhoefpad" style="display:inline;margin-right:0.5em;">
-      Snorrenhoefpad</h2><a href="./index.html#snorrenhoefpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/snorrenhoefpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Snorrenhoefpad-web.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/snorrenhoefpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>10.32 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="speuldepad" style="display:inline;margin-right:0.5em;">
-      Speuldepad</h2><a href="./index.html#speuldepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/speuldepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/15-06-2020_Speuldepad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/speuldepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>23.64 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="staickheimerpad" style="display:inline;margin-right:0.5em;">
-      Staickheimerpad</h2><a href="./index.html#staickheimerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/staickheimerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Staickheimerpad-digfolder-groot-LR.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/staickheimerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>22.12 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="stoetwegenpad" style="display:inline;margin-right:0.5em;">
-      Stoetwegenpad</h2><a href="./index.html#stoetwegenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/stoetwegenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Stoetwegenpad-webversie.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/stoetwegenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>15.19 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="stoutenburgerpad" style="display:inline;margin-right:0.5em;">
-      Stoutenburgerpad</h2><a href="./index.html#stoutenburgerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/stoutenburgerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Stoutenburgerpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/stoutenburgerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>16.54 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="stoutenburgpad" style="display:inline;margin-right:0.5em;">
-      Stoutenburgpad</h2><a href="./index.html#stoutenburgpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/stoutenburgpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>5.38 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="teisterbantpad" style="display:inline;margin-right:0.5em;">
-      Teisterbantpad</h2><a href="./index.html#teisterbantpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/teisterbantpad" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-04-08-Teisterbantpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/teisterbantpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>17.33 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="terbroeksepad" style="display:inline;margin-right:0.5em;">
-      Terbroeksepad</h2><a href="./index.html#terbroeksepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/terbroeksepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-03-02_Terbroeksepad_A4-folder-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/terbroeksepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>19.14 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="termatenpad" style="display:inline;margin-right:0.5em;">
-      Termatenpad</h2><a href="./index.html#termatenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/termatenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Termatenpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/termatenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>23.07 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="teylingenpad" style="display:inline;margin-right:0.5em;">
-      Teylingenpad</h2><a href="./index.html#teylingenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/teylingenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Teylingenpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/teylingenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>15.43 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="thornspiccerpad" style="display:inline;margin-right:0.5em;">
-      Thornspiccerpad</h2><a href="./index.html#thornspiccerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/thornspiccerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-07-22_Thornspiccerpad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/thornspiccerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>24.2 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="tremelepad" style="display:inline;margin-right:0.5em;">
-      Tremelepad</h2><a href="./index.html#tremelepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/tremelepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-06-17-Tremelepad-A4-folder-200.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/tremelepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.88 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="turfvelderpad" style="display:inline;margin-right:0.5em;">
-      Turfvelderpad</h2><a href="./index.html#turfvelderpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/turfvelderpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-03-07-Turfvelderpad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/turfvelderpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>14.45 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="tuylermarkerpad" style="display:inline;margin-right:0.5em;">
-      Tuylermarkerpad</h2><a href="./index.html#tuylermarkerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/tuylermarkerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2018-11-12-Tuylermarkerpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/tuylermarkerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>11.89 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="uchtapad" style="display:inline;margin-right:0.5em;">
-      Uchtapad</h2><a href="./index.html#uchtapad">#</a>
-    </span>
-    <dl>
-        <dt><a href="" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/uchtapad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>19.64 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="uddelermeerpad" style="display:inline;margin-right:0.5em;">
-      Uddelermeerpad</h2><a href="./index.html#uddelermeerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/uddelermeerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-06-23-Uddelermeerpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/uddelermeerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.72 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="ugcheler-markepad" style="display:inline;margin-right:0.5em;">
-      Ugcheler Markepad</h2><a href="./index.html#ugcheler-markepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/ugcheler-markepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-06-09_Ugcheler_Markepad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/ugcheler-markepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>12.19 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="valkschepad" style="display:inline;margin-right:0.5em;">
-      Valkschepad</h2><a href="./index.html#valkschepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/valkschepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-06-08-Valkschepad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/valkschepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.84 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="veendijkpad" style="display:inline;margin-right:0.5em;">
-      Veendijkpad</h2><a href="./index.html#veendijkpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/veendijkpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Veendijkpad-omleiding.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/veendijkpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>12 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="vosbergenpad" style="display:inline;margin-right:0.5em;">
-      Vosbergenpad</h2><a href="./index.html#vosbergenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/vosbergenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-02-24Vosbergerpad_a4.pdf target=" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/vosbergenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.95 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="vredelantsepad" style="display:inline;margin-right:0.5em;">
-      Vredelantsepad</h2><a href="./index.html#vredelantsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/vredelantsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Vredelantsepadweb.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/vredelantsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>10.66 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="vreepad" style="display:inline;margin-right:0.5em;">
-      Vreepad</h2><a href="./index.html#vreepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/vreepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-11-18-Vreepad-200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/vreepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>18.98 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="vrijheijtpad" style="display:inline;margin-right:0.5em;">
-      Vrijheijtpad</h2><a href="./index.html#vrijheijtpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/vrijheijtpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2022-07-04-Vrijheijtpad-Digifolder-200.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/vrijheijtpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>15.1 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="vurensche-polderpad" style="display:inline;margin-right:0.5em;">
-      Vurensche polderpad</h2><a href="./index.html#vurensche-polderpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/vurensche-polderpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2021-12-23-Vurensche-Polderpad_tmp_dijkverzwaring_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/vurensche-polderpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>21.77 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="vuylcoppad" style="display:inline;margin-right:0.5em;">
-      Vuylcoppad</h2><a href="./index.html#vuylcoppad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/vuylcoppad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/De-Blokhovense-Polder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/vuylcoppad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>11.17 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="wageningse-engpad" style="display:inline;margin-right:0.5em;">
-      Wageningse Engpad</h2><a href="./index.html#wageningse-engpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/wageningse-engpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2020-04-15-Wageningse-Engpad_200dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/wageningse-engpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>17.06 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="wageningse-engpad-kids" style="display:inline;margin-right:0.5em;">
-      Wageningse Engpad kids</h2><a href="./index.html#wageningse-engpad-kids">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/wageningse-engpad-kids/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/kaart-crop-Wageningse-Engpad-KIDS.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/wageningse-engpad-kids.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>4.21 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="wiseperpad" style="display:inline;margin-right:0.5em;">
-      Wiseperpad</h2><a href="./index.html#wiseperpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/wiseperpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2019-03-07-Wiseperpad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/wiseperpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>22.18 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="woldermarkerpad" style="display:inline;margin-right:0.5em;">
-      Woldermarkerpad</h2><a href="./index.html#woldermarkerpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/woldermarkerpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/230-woldermarkerpad.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/woldermarkerpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>6.55 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="zandslagenpad" style="display:inline;margin-right:0.5em;">
-      Zandslagenpad</h2><a href="./index.html#zandslagenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/zandslagenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2017-05-09-Zandslagenpad_Alemschepad_600dpi-1.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/zandslagenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>13.88 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="zeegsepad" style="display:inline;margin-right:0.5em;">
-      Zeegsepad</h2><a href="./index.html#zeegsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/zeegsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/2018-01-30-Zeegsepad_600dpi.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/zeegsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>9.71 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="zeldertsepad" style="display:inline;margin-right:0.5em;">
-      Zeldertsepad</h2><a href="./index.html#zeldertsepad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/zeldertsepad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Zeldertsepad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/zeldertsepad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>11 km</dd>
-    </dl>
-    <hr>
-    <span>
-    <h2 id="zoddenpad" style="display:inline;margin-right:0.5em;">
-      Zoddenpad</h2><a href="./index.html#zoddenpad">#</a>
-    </span>
-    <dl>
-        <dt><a href="https://klompenpaden.nl/klompenpad/zoddenpad/" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="https://klompenpaden.nl/wp-content/uploads/Tienhoven.pdf" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="gpx/zoddenpad.gpx" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>17.13 km</dd>
-    </dl>
+    <div id="map" class="full-width" style="height: 500px;"></div>
+    <p style="text-align:center;margin:unset;margin-top:1em;">
+    142 Klompenpaden
+    </p>
+    <hr/>
+    
+    <span>
+      <h2 id="achterwooldsepad" style="display: inline; margin-right: 0.5em">
+        Achterwooldsepad
+      </h2>
+      <a href="./index.html#achterwooldsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/achterwooldsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-09-23-Achterwooldsepad-liggend_200dpi-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/achterwooldsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.04 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="aderwinkelpad" style="display: inline; margin-right: 0.5em">
+        Aderwinkelpad
+      </h2>
+      <a href="./index.html#aderwinkelpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/aderwinkelpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/KaartAderwinkelpadWebversie.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/aderwinkelpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.32 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="albapad" style="display: inline; margin-right: 0.5em">
+        Albapad
+      </h2>
+      <a href="./index.html#albapad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/albapad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-04-07-Albapad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/albapad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>15.79 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="alemschepad" style="display: inline; margin-right: 0.5em">
+        Alemschepad
+      </h2>
+      <a href="./index.html#alemschepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/alemschepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2017-05-09-Zandslagenpad_Alemschepad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/alemschepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>8.86 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="ambts-en-rijkspad" style="display: inline; margin-right: 0.5em">
+        Ambts- en Rijkspad
+      </h2>
+      <a href="./index.html#ambts-en-rijkspad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/ambts-en-rijkspad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-05-21-Ambts-en-Rijkspad_A4.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/ambts-en-rijkspad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>21.52 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="appelpad" style="display: inline; margin-right: 0.5em">
+        Appelpad
+      </h2>
+      <a href="./index.html#appelpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/appelpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-12-15-Appelpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/appelpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>11.47 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="assenradepad" style="display: inline; margin-right: 0.5em">
+        Assenradepad
+      </h2>
+      <a href="./index.html#assenradepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/assenradepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-05-03Assenradepad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/assenradepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>12.38 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="avervoorderpad" style="display: inline; margin-right: 0.5em">
+        Avervoorderpad
+      </h2>
+      <a href="./index.html#avervoorderpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/avervoorderpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-06-08-Avervoorderpad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/avervoorderpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.47 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="baanbrekerpad" style="display: inline; margin-right: 0.5em">
+        Baanbrekerpad
+      </h2>
+      <a href="./index.html#baanbrekerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/baanbrekerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-12-23-Baanbrekerpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/baanbrekerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.96 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="babborgapad" style="display: inline; margin-right: 0.5em">
+        Babborgapad
+      </h2>
+      <a href="./index.html#babborgapad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/babborgapad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-09-21_Babborgapad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/babborgapad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>12.05 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="batouwepad" style="display: inline; margin-right: 0.5em">
+        Batouwepad
+      </h2>
+      <a href="./index.html#batouwepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/batouwepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2015-07-09-Batouwepad_Marspad_klein.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/batouwepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.05 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="beek-en-bultpad" style="display: inline; margin-right: 0.5em">
+        Beek- en Bultpad
+      </h2>
+      <a href="./index.html#beek-en-bultpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/beek-en-bultpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-02-22-Beek-en-Bultpad_200dpi-2.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/beek-en-bultpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.44 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="beekweidenpad" style="display: inline; margin-right: 0.5em">
+        Beekweidenpad
+      </h2>
+      <a href="./index.html#beekweidenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/beekweidenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-04-29_Beekweidenpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/beekweidenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>19.41 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="bekbergerpad" style="display: inline; margin-right: 0.5em">
+        Bekbergerpad
+      </h2>
+      <a href="./index.html#bekbergerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/bekbergerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2019-10-14_Bekbergerpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/bekbergerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.11 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="benedeneindsepad" style="display: inline; margin-right: 0.5em">
+        Benedeneindsepad
+      </h2>
+      <a href="./index.html#benedeneindsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/benedeneindsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/KIDS-klompenpaden-DEF-Downloadbestand-incl-instructie-pagina.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/benedeneindsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>12.55 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="benedeneindsepad-kids" style="display: inline; margin-right: 0.5em">
+        Benedeneindsepad kids
+      </h2>
+      <a href="./index.html#benedeneindsepad-kids">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/benedeneindsepad-kids/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Benedeneindsepad-KIDS-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/benedeneindsepad-kids.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>7.71 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="beukenburgerpad" style="display: inline; margin-right: 0.5em">
+        Beukenburgerpad
+      </h2>
+      <a href="./index.html#beukenburgerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/beukenburgerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Beukenburgerpad-web.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/beukenburgerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.93 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="bevermeersepad" style="display: inline; margin-right: 0.5em">
+        Bevermeersepad
+      </h2>
+      <a href="./index.html#bevermeersepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/bevermeersepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-12-07-Bevermeersepad-600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/bevermeersepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>10.13 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="boereneschpad" style="display: inline; margin-right: 0.5em">
+        Boereneschpad
+      </h2>
+      <a href="./index.html#boereneschpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/boereneschpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2017-03-06-Boereneschpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/boereneschpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>29.43 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="breeschoterpad" style="display: inline; margin-right: 0.5em">
+        Breeschoterpad
+      </h2>
+      <a href="./index.html#breeschoterpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/breeschoterpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Breeschoterpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/breeschoterpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>6.3 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="breukerengpad" style="display: inline; margin-right: 0.5em">
+        Breukerengpad
+      </h2>
+      <a href="./index.html#breukerengpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/breukerengpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2018-02-28-Harsloerpad_600dpi-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/breukerengpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>7.27 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="broekerpad" style="display: inline; margin-right: 0.5em">
+        Broekerpad
+      </h2>
+      <a href="./index.html#broekerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/broekerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/195-broekerpad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/broekerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>6.91 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="cotlandenpad" style="display: inline; margin-right: 0.5em">
+        Cotlandenpad
+      </h2>
+      <a href="./index.html#cotlandenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/cotlandenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Cotlandenpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/cotlandenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.18 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="daatselaarsepad" style="display: inline; margin-right: 0.5em">
+        Daatselaarsepad
+      </h2>
+      <a href="./index.html#daatselaarsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/daatselaarsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Daatselaarsepad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/daatselaarsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>11.08 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="dashorsterpad" style="display: inline; margin-right: 0.5em">
+        Dashorsterpad
+      </h2>
+      <a href="./index.html#dashorsterpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpan/dashorsterpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/192-dashorsterpad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/dashorsterpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>12.59 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="doddendaelpad" style="display: inline; margin-right: 0.5em">
+        Doddendaelpad
+      </h2>
+      <a href="./index.html#doddendaelpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/doddendaelpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-03-19-Doddendaelpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/doddendaelpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>16.3 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="doesburgermolenpad" style="display: inline; margin-right: 0.5em">
+        Doesburgermolenpad
+      </h2>
+      <a href="./index.html#doesburgermolenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/doesburgermolenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2017-12-06-Doesburgermolenpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/doesburgermolenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.07 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="dorenweertsepad" style="display: inline; margin-right: 0.5em">
+        Dorenweertsepad
+      </h2>
+      <a href="./index.html#dorenweertsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/dorenweertsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-04-21Dorenweertsepad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/dorenweertsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.23 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="eekterpad" style="display: inline; margin-right: 0.5em">
+        Eekterpad
+      </h2>
+      <a href="./index.html#eekterpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/eekterpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-10-15-Eekterpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/eekterpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>10.97 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="eendenkooienpad" style="display: inline; margin-right: 0.5em">
+        Eendenkooienpad
+      </h2>
+      <a href="./index.html#eendenkooienpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/eendenkooienpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Eendenkooienpad-routekaart-2020-2.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/eendenkooienpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>20.97 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="eertbeekse-beekpad" style="display: inline; margin-right: 0.5em">
+        Eertbeekse beekpad
+      </h2>
+      <a href="./index.html#eertbeekse-beekpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/eertbeekse-beekpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.7 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="eeskooterpad-2" style="display: inline; margin-right: 0.5em">
+        Eeskooterpad 2
+      </h2>
+      <a href="./index.html#eeskooterpad-2">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/eeskooterpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2018-02-14-Eeskooterpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/eeskooterpad-2.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.83 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="eeskooterpad" style="display: inline; margin-right: 0.5em">
+        Eeskooterpad
+      </h2>
+      <a href="./index.html#eeskooterpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/eeskooterpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>6.9 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="elsvoorderpad" style="display: inline; margin-right: 0.5em">
+        Elsvoorderpad
+      </h2>
+      <a href="./index.html#elsvoorderpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/elsvoorderpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-02-01_Elsvoorderpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/elsvoorderpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>15.36 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="engelenburgerpad" style="display: inline; margin-right: 0.5em">
+        Engelenburgerpad
+      </h2>
+      <a href="./index.html#engelenburgerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/engelenburgerpad" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Kaart-Engelenburgerpad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/engelenburgerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>5.04 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="engelroderpad" style="display: inline; margin-right: 0.5em">
+        Engelroderpad
+      </h2>
+      <a href="./index.html#engelroderpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/engelroderpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Engelroderpad-digfolder-LR-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/engelroderpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>30.36 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="errekomsepad" style="display: inline; margin-right: 0.5em">
+        Errekomsepad
+      </h2>
+      <a href="./index.html#errekomsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/errekomsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-03-18_Errekomsepad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/errekomsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>19.44 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="fliertpad" style="display: inline; margin-right: 0.5em">
+        Fliertpad
+      </h2>
+      <a href="./index.html#fliertpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/fliertpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-02-01_Fliertpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/fliertpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>17.92 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="ganderpad" style="display: inline; margin-right: 0.5em">
+        Ganderpad
+      </h2>
+      <a href="./index.html#ganderpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/ganderpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2019-05-27-Ganderpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/ganderpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.19 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="gerrit-achterbergpad" style="display: inline; margin-right: 0.5em">
+        Gerrit Achterbergpad
+      </h2>
+      <a href="./index.html#gerrit-achterbergpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/gerrit-achterbergpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>25.45 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="glindhorsterpad" style="display: inline; margin-right: 0.5em">
+        Glindhorsterpad
+      </h2>
+      <a href="./index.html#glindhorsterpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/glindhorsterpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-04-14_Glindhorsterpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/glindhorsterpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>11.46 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="goilberdingerpad" style="display: inline; margin-right: 0.5em">
+        Goilberdingerpad
+      </h2>
+      <a href="./index.html#goilberdingerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/goilberdingerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-06-04-Goilberdingerpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/goilberdingerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>23.7 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="gravenslootpad" style="display: inline; margin-right: 0.5em">
+        Gravenslootpad
+      </h2>
+      <a href="./index.html#gravenslootpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/graveslootpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Graveslootpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/gravenslootpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>7.4 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="griezeveensepad" style="display: inline; margin-right: 0.5em">
+        Griezeveensepad
+      </h2>
+      <a href="./index.html#griezeveensepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/griezeveensepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-02-22_Griezeveensepad_A4-folder-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/griezeveensepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.92 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="grift-en-graftenpad" style="display: inline; margin-right: 0.5em">
+        Grift- en Graftenpad
+      </h2>
+      <a href="./index.html#grift-en-graftenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/grift-en-graftenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Grift-en-Graftenpad-webversie.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/grift-en-graftenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.72 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="hamarithapad" style="display: inline; margin-right: 0.5em">
+        Hamarithapad
+      </h2>
+      <a href="./index.html#hamarithapad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/hamarithapad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-12-23-Hamarithapad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/hamarithapad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>16.24 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="harscamperpad" style="display: inline; margin-right: 0.5em">
+        Harscamperpad
+      </h2>
+      <a href="./index.html#harscamperpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/harscamperpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-6-15_Harscamperpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/harscamperpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.97 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="harsloerpad" style="display: inline; margin-right: 0.5em">
+        Harsloerpad
+      </h2>
+      <a href="./index.html#harsloerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/harsloerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-03-31_Harsloerpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/harsloerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.45 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="hartensepad" style="display: inline; margin-right: 0.5em">
+        Hartensepad
+      </h2>
+      <a href="./index.html#hartensepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/hartensepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Hartensepad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/hartensepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>16.54 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="heuzesepad" style="display: inline; margin-right: 0.5em">
+        Heuzesepad
+      </h2>
+      <a href="./index.html#heuzesepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/heuzesepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-09-22-Heuzesepad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/heuzesepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>16.14 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="hiensepad" style="display: inline; margin-right: 0.5em">
+        Hiensepad
+      </h2>
+      <a href="./index.html#hiensepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/hiensepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Hiensepad-digfolder-groot-LR.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/hiensepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.12 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="hoenwaardsepad" style="display: inline; margin-right: 0.5em">
+        Hoenwaardsepad
+      </h2>
+      <a href="./index.html#hoenwaardsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/hoenwaardsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-5-30_Hoenwaardsepad-A4-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/hoenwaardsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>10.61 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="hoeverveldpad" style="display: inline; margin-right: 0.5em">
+        Hoeverveldpad
+      </h2>
+      <a href="./index.html#hoeverveldpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/hoeverveldpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-05-03Hoeverveldpadkaart-tijdelijke-omleiding.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/hoeverveldpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>22.06 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="holhorsterpad" style="display: inline; margin-right: 0.5em">
+        Holhorsterpad
+      </h2>
+      <a href="./index.html#holhorsterpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/holhorsterpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2016-03-30-Holhorsterpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/holhorsterpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.06 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="horsthoekerpad" style="display: inline; margin-right: 0.5em">
+        Horsthoekerpad
+      </h2>
+      <a href="./index.html#horsthoekerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/horsthoekerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/19-7-2022_Horsthoekerpad200dpi-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/horsthoekerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>22.78 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="houtdijkenpad" style="display: inline; margin-right: 0.5em">
+        Houtdijkenpad
+      </h2>
+      <a href="./index.html#houtdijkenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/houtdijkenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Houtdijkenpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/houtdijkenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.21 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="huinerpad" style="display: inline; margin-right: 0.5em">
+        Huinerpad
+      </h2>
+      <a href="./index.html#huinerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/huinerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2017-11-27-Huinerpad_A4.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/huinerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>21.36 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="husloapad" style="display: inline; margin-right: 0.5em">
+        Husloapad
+      </h2>
+      <a href="./index.html#husloapad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/husloapad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-06-28_Husloapad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/husloapad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>25.48 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="jordenpad" style="display: inline; margin-right: 0.5em">
+        Jordenpad
+      </h2>
+      <a href="./index.html#jordenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/jordenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-12-23-Jordenpad_tmp_Dijkverzwaring_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/jordenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>23.68 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="jufferpad" style="display: inline; margin-right: 0.5em">
+        Jufferpad
+      </h2>
+      <a href="./index.html#jufferpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/jufferpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Jufferpad-webversie-2.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/jufferpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>17.66 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="kandiapad" style="display: inline; margin-right: 0.5em">
+        Kandiapad
+      </h2>
+      <a href="./index.html#kandiapad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/kandiapad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-06-28-Kandiapad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/kandiapad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>20.11 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="klarenbeeksepad" style="display: inline; margin-right: 0.5em">
+        Klarenbeeksepad
+      </h2>
+      <a href="./index.html#klarenbeeksepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/klarenbeeksepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-11-09-Klarenbeeksepad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/klarenbeeksepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>16.44 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="klompenmakerspad" style="display: inline; margin-right: 0.5em">
+        Klompenmakerspad
+      </h2>
+      <a href="./index.html#klompenmakerspad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/klompenmakerspad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2018-04-13-Klompenmakerspad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/klompenmakerspad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>20.1 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="kopermolenpad" style="display: inline; margin-right: 0.5em">
+        Kopermolenpad
+      </h2>
+      <a href="./index.html#kopermolenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/kopermolenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2016-07-13-Kopermolenpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/kopermolenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.62 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="kreelsepad" style="display: inline; margin-right: 0.5em">
+        Kreelsepad
+      </h2>
+      <a href="./index.html#kreelsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/kreelsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-09-01-Kreelsepad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/kreelsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>27.3 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="kruishaarderpad" style="display: inline; margin-right: 0.5em">
+        Kruishaarderpad
+      </h2>
+      <a href="./index.html#kruishaarderpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/kruishaarderpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-05-04-Kruishaarderpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/kruishaarderpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.43 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="kuilenburgerpad" style="display: inline; margin-right: 0.5em">
+        Kuilenburgerpad
+      </h2>
+      <a href="./index.html#kuilenburgerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/kuilenburgerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://bit.ly/3jfmNGw" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/kuilenburgerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>16.67 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="laaksepad" style="display: inline; margin-right: 0.5em">
+        Laaksepad
+      </h2>
+      <a href="./index.html#laaksepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/laaksepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2016-01-27-Laaksepad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/laaksepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>16.49 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="laaksepad-kids" style="display: inline; margin-right: 0.5em">
+        Laaksepad KIDS
+      </h2>
+      <a href="./index.html#laaksepad-kids">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/laaksepad-kids/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Doeboekje-Laaksepad-KIDS.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/laaksepad-kids.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>3 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="laorns-enkenpad" style="display: inline; margin-right: 0.5em">
+        Laorns Enkenpad
+      </h2>
+      <a href="./index.html#laorns-enkenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/laorns-enkenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Laorns-Enkenpad-Folder-LR.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/laorns-enkenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>26.09 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="lauwsepad" style="display: inline; margin-right: 0.5em">
+        Lauwsepad
+      </h2>
+      <a href="./index.html#lauwsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/lauwsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2015-05-21-Lauwsepad_600-dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/lauwsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>17.25 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="leestensche-broekpad" style="display: inline; margin-right: 0.5em">
+        Leestensche broekpad
+      </h2>
+      <a href="./index.html#leestensche-broekpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/leestensche-broekpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-08-26-Leestensche-Broekpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/leestensche-broekpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>21.71 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="leidschehoevenpad" style="display: inline; margin-right: 0.5em">
+        Leidschehoevenpad
+      </h2>
+      <a href="./index.html#leidschehoevenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/leidschehoevenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-12-23-Leidschehoevenpad_200dpi-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/leidschehoevenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>20.8 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="leuvenschepad" style="display: inline; margin-right: 0.5em">
+        Leuvenschepad
+      </h2>
+      <a href="./index.html#leuvenschepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/leuvenschepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2018-12-05-Leuvenschepad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/leuvenschepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>17.92 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="lint-en-liniepad" style="display: inline; margin-right: 0.5em">
+        Lint- en Liniepad
+      </h2>
+      <a href="./index.html#lint-en-liniepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/lint-en-liniepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Lint-en-Liniepad-kaart-nieuw-10-04-2018.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/lint-en-liniepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>9.76 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="loenense-enkenpad" style="display: inline; margin-right: 0.5em">
+        Loenense Enkenpad
+      </h2>
+      <a href="./index.html#loenense-enkenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/loenense-enkenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2016-05-30-Loenense-Enkenpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/loenense-enkenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.11 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="loobrinkerpad" style="display: inline; margin-right: 0.5em">
+        Loobrinkerpad
+      </h2>
+      <a href="./index.html#loobrinkerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/loobrinkerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2014-06-06_Loobrinkerpad_a4.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/loobrinkerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>11.52 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="markluiderpad" style="display: inline; margin-right: 0.5em">
+        Markluiderpad
+      </h2>
+      <a href="./index.html#markluiderpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/Markluiderpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2018-06-04-Markluiderpad-met-alternatieve-route-A4.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/markluiderpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>16.13 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="marspad" style="display: inline; margin-right: 0.5em">
+        Marspad
+      </h2>
+      <a href="./index.html#marspad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/marspad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2019-12-03-Batouwepad_Marspad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/marspad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.83 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="meulunterenpad" style="display: inline; margin-right: 0.5em">
+        Meulunterenpad
+      </h2>
+      <a href="./index.html#meulunterenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/meulunterenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2017-02-17-Meulunterenpad3.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/meulunterenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>27.26 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="moas-wetteringpad" style="display: inline; margin-right: 0.5em">
+        Moas-Wetteringpad
+      </h2>
+      <a href="./index.html#moas-wetteringpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/moas-wetteringpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://bit.ly/34RTAxZ" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/moas-wetteringpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.48 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="molenbeeksepad" style="display: inline; margin-right: 0.5em">
+        Molenbeeksepad
+      </h2>
+      <a href="./index.html#molenbeeksepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/molenbeeksepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-04-14-Molenbeeksepad_A4-folder-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/molenbeeksepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>21.07 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="nederrijnsepad" style="display: inline; margin-right: 0.5em">
+        Nederrijnsepad
+      </h2>
+      <a href="./index.html#nederrijnsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/nederrijnsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Nederrijnsepad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/nederrijnsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>30.93 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="nederwoudsepad" style="display: inline; margin-right: 0.5em">
+        Nederwoudsepad
+      </h2>
+      <a href="./index.html#nederwoudsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/nederwoudsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-04-15-Nederwoudsepad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/nederwoudsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.08 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="nesserpad" style="display: inline; margin-right: 0.5em">
+        Nesserpad
+      </h2>
+      <a href="./index.html#nesserpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/nesserpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Nesserpad-AvdB-19-nov-gecentreerd_compressed-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/nesserpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.87 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="netelenburchpad" style="display: inline; margin-right: 0.5em">
+        Netelenburchpad
+      </h2>
+      <a href="./index.html#netelenburchpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/netelenburchpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Netelenburchpad-webversie-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/netelenburchpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>8.02 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="niebroekerpad" style="display: inline; margin-right: 0.5em">
+        Niebroekerpad
+      </h2>
+      <a href="./index.html#niebroekerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/niebroekerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/12-03-2021_Nienbroekerpad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/niebroekerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.05 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="nijbroek-kids" style="display: inline; margin-right: 0.5em">
+        Nijbroek Kids
+      </h2>
+      <a href="./index.html#nijbroek-kids">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/niebroekerpad-kids/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Doeboekje-Niebroekerpad-KIDS.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/nijbroek-kids.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>3.2 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="norderpad" style="display: inline; margin-right: 0.5em">
+        Norderpad
+      </h2>
+      <a href="./index.html#norderpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/norderpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2019-06-12_Norderpad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/norderpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>12.27 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="nudepad" style="display: inline; margin-right: 0.5em">
+        Nudepad
+      </h2>
+      <a href="./index.html#nudepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/nudepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-07-22_Nudepad_600dpi-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/nudepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>11.82 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="nywelepad" style="display: inline; margin-right: 0.5em">
+        Nywelepad
+      </h2>
+      <a href="./index.html#nywelepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/nywelepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-03-01-Nywelepad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/nywelepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>20.06 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="oldenallerpad" style="display: inline; margin-right: 0.5em">
+        Oldenallerpad
+      </h2>
+      <a href="./index.html#oldenallerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/oldenallerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2018-05-17-Oldenallerpad_600dpi_geknipt-EB.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/oldenallerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.27 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="onderwaterpad-kids" style="display: inline; margin-right: 0.5em">
+        Onderwaterpad-Kids
+      </h2>
+      <a href="./index.html#onderwaterpad-kids">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/onderwaterpad-kids/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Onderwaterpad-KIDS-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/onderwaterpad-kids.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>5.77 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="oudenhorsterpad" style="display: inline; margin-right: 0.5em">
+        Oudenhorsterpad
+      </h2>
+      <a href="./index.html#oudenhorsterpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/oudenhorsterpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/221-oudenhorsterpad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/oudenhorsterpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>7.46 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="overlangbroeksepad" style="display: inline; margin-right: 0.5em">
+        Overlangbroeksepad
+      </h2>
+      <a href="./index.html#overlangbroeksepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/overlangbroeksepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="paddenpad" style="display: inline; margin-right: 0.5em">
+        Paddenpad
+      </h2>
+      <a href="./index.html#paddenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/paddenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2018-05-03_Paddenpad_nieuw.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/paddenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.54 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="paradijspad" style="display: inline; margin-right: 0.5em">
+        Paradijspad
+      </h2>
+      <a href="./index.html#paradijspad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/paradijspad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Paradijspad-A4-200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/paradijspad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>7.17 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="pelserpad" style="display: inline; margin-right: 0.5em">
+        Pelserpad
+      </h2>
+      <a href="./index.html#pelserpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/pelserpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2017-02-07-Pelserpad_nieuw_knip1-met-overstap.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/pelserpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>21.71 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="plaggenstekerspad" style="display: inline; margin-right: 0.5em">
+        Plaggenstekerspad
+      </h2>
+      <a href="./index.html#plaggenstekerspad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/Plaggenstekerspad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2017-03-16-Plaggenstekerspad_600dpi-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/plaggenstekerspad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>12.47 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="reckensche-markepad" style="display: inline; margin-right: 0.5em">
+        Reckensche Markepad
+      </h2>
+      <a href="./index.html#reckensche-markepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/reckense-markepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://bit.ly/3h5YF9T" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/reckensche-markepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>20.87 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="rhenoijschepad" style="display: inline; margin-right: 0.5em">
+        Rhenoijschepad
+      </h2>
+      <a href="./index.html#rhenoijschepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/rhenoijschepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2016-11-04-Rhenoijschepad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/rhenoijschepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>16.51 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="rijnstrangenpad" style="display: inline; margin-right: 0.5em">
+        Rijnstrangenpad
+      </h2>
+      <a href="./index.html#rijnstrangenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/rijnstrangenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-02-22_Rijnstrangenpad_A4-folder-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/rijnstrangenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>15.97 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="rijnweidepad" style="display: inline; margin-right: 0.5em">
+        Rijnweidepad
+      </h2>
+      <a href="./index.html#rijnweidepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/rijnweidepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-06-08-Rijnweidepad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/rijnweidepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.72 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="rosandepad" style="display: inline; margin-right: 0.5em">
+        Rosandepad
+      </h2>
+      <a href="./index.html#rosandepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/rosandepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2018-05-04-Rosandepad_600dpi_geknipt-EB-HR.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/rosandepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.42 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="schaarsbergenpad" style="display: inline; margin-right: 0.5em">
+        Schaarsbergenpad
+      </h2>
+      <a href="./index.html#schaarsbergenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/schaarsbergenpad" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-06-02_2-A4-folder-Schaarsbergenpad-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/schaarsbergenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.09 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="schaverensepad" style="display: inline; margin-right: 0.5em">
+        Schaverensepad
+      </h2>
+      <a href="./index.html#schaverensepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/schaverensepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/229-schaverensepad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/schaverensepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>10.82 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="schutpad" style="display: inline; margin-right: 0.5em">
+        Schutpad
+      </h2>
+      <a href="./index.html#schutpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/schutpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Schutpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/schutpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>4.81 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="slagmaatpad" style="display: inline; margin-right: 0.5em">
+        Slagmaatpad
+      </h2>
+      <a href="./index.html#slagmaatpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/slagmaatpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Slagmaatpad-volwassen-versie-13-juni.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/slagmaatpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>8.83 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="slagmaatpad-kids" style="display: inline; margin-right: 0.5em">
+        Slagmaatpad kids
+      </h2>
+      <a href="./index.html#slagmaatpad-kids">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/slagmaatpad-kids/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Slagmaatpad-KIDS-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/slagmaatpad-kids.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>8.81 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="snorrenhoefpad" style="display: inline; margin-right: 0.5em">
+        Snorrenhoefpad
+      </h2>
+      <a href="./index.html#snorrenhoefpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/snorrenhoefpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Snorrenhoefpad-web.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/snorrenhoefpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>10.32 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="speuldepad" style="display: inline; margin-right: 0.5em">
+        Speuldepad
+      </h2>
+      <a href="./index.html#speuldepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/speuldepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/15-06-2020_Speuldepad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/speuldepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>23.64 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="staickheimerpad" style="display: inline; margin-right: 0.5em">
+        Staickheimerpad
+      </h2>
+      <a href="./index.html#staickheimerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/staickheimerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Staickheimerpad-digfolder-groot-LR.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/staickheimerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>22.12 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="stoetwegenpad" style="display: inline; margin-right: 0.5em">
+        Stoetwegenpad
+      </h2>
+      <a href="./index.html#stoetwegenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/stoetwegenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Stoetwegenpad-webversie.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/stoetwegenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>15.19 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="stoutenburgerpad" style="display: inline; margin-right: 0.5em">
+        Stoutenburgerpad
+      </h2>
+      <a href="./index.html#stoutenburgerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/stoutenburgerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Stoutenburgerpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/stoutenburgerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>16.54 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="stoutenburgpad" style="display: inline; margin-right: 0.5em">
+        Stoutenburgpad
+      </h2>
+      <a href="./index.html#stoutenburgpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/stoutenburgpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>5.38 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="teisterbantpad" style="display: inline; margin-right: 0.5em">
+        Teisterbantpad
+      </h2>
+      <a href="./index.html#teisterbantpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/teisterbantpad" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-04-08-Teisterbantpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/teisterbantpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>17.33 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="terbroeksepad" style="display: inline; margin-right: 0.5em">
+        Terbroeksepad
+      </h2>
+      <a href="./index.html#terbroeksepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/terbroeksepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-03-02_Terbroeksepad_A4-folder-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/terbroeksepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>19.14 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="termatenpad" style="display: inline; margin-right: 0.5em">
+        Termatenpad
+      </h2>
+      <a href="./index.html#termatenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/termatenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Termatenpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/termatenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>23.07 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="teylingenpad" style="display: inline; margin-right: 0.5em">
+        Teylingenpad
+      </h2>
+      <a href="./index.html#teylingenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/teylingenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Teylingenpad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/teylingenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>15.43 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="thornspiccerpad" style="display: inline; margin-right: 0.5em">
+        Thornspiccerpad
+      </h2>
+      <a href="./index.html#thornspiccerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/thornspiccerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-07-22_Thornspiccerpad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/thornspiccerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>24.2 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="tremelepad" style="display: inline; margin-right: 0.5em">
+        Tremelepad
+      </h2>
+      <a href="./index.html#tremelepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/tremelepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-06-17-Tremelepad-A4-folder-200.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/tremelepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.88 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="turfvelderpad" style="display: inline; margin-right: 0.5em">
+        Turfvelderpad
+      </h2>
+      <a href="./index.html#turfvelderpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/turfvelderpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-03-07-Turfvelderpad-A4-folder-600.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/turfvelderpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>14.45 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="tuylermarkerpad" style="display: inline; margin-right: 0.5em">
+        Tuylermarkerpad
+      </h2>
+      <a href="./index.html#tuylermarkerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/tuylermarkerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2018-11-12-Tuylermarkerpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/tuylermarkerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>11.89 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="uchtapad" style="display: inline; margin-right: 0.5em">
+        Uchtapad
+      </h2>
+      <a href="./index.html#uchtapad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/uchtapad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>19.64 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="uddelermeerpad" style="display: inline; margin-right: 0.5em">
+        Uddelermeerpad
+      </h2>
+      <a href="./index.html#uddelermeerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/uddelermeerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-06-23-Uddelermeerpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/uddelermeerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.72 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="ugcheler-markepad" style="display: inline; margin-right: 0.5em">
+        Ugcheler Markepad
+      </h2>
+      <a href="./index.html#ugcheler-markepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/ugcheler-markepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-06-09_Ugcheler_Markepad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/ugcheler-markepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>12.19 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="valkschepad" style="display: inline; margin-right: 0.5em">
+        Valkschepad
+      </h2>
+      <a href="./index.html#valkschepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/valkschepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-06-08-Valkschepad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/valkschepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.84 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="veendijkpad" style="display: inline; margin-right: 0.5em">
+        Veendijkpad
+      </h2>
+      <a href="./index.html#veendijkpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/veendijkpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Veendijkpad-omleiding.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/veendijkpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>12 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="vosbergenpad" style="display: inline; margin-right: 0.5em">
+        Vosbergenpad
+      </h2>
+      <a href="./index.html#vosbergenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/vosbergenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-02-24Vosbergerpad_a4.pdf target=" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/vosbergenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.95 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="vredelantsepad" style="display: inline; margin-right: 0.5em">
+        Vredelantsepad
+      </h2>
+      <a href="./index.html#vredelantsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/vredelantsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Vredelantsepadweb.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/vredelantsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>10.66 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="vreepad" style="display: inline; margin-right: 0.5em">
+        Vreepad
+      </h2>
+      <a href="./index.html#vreepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/vreepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-11-18-Vreepad-200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/vreepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>18.98 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="vrijheijtpad" style="display: inline; margin-right: 0.5em">
+        Vrijheijtpad
+      </h2>
+      <a href="./index.html#vrijheijtpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/vrijheijtpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2022-07-04-Vrijheijtpad-Digifolder-200.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/vrijheijtpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>15.1 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="vurensche-polderpad" style="display: inline; margin-right: 0.5em">
+        Vurensche polderpad
+      </h2>
+      <a href="./index.html#vurensche-polderpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/vurensche-polderpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2021-12-23-Vurensche-Polderpad_tmp_dijkverzwaring_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/vurensche-polderpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>21.77 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="vuylcoppad" style="display: inline; margin-right: 0.5em">
+        Vuylcoppad
+      </h2>
+      <a href="./index.html#vuylcoppad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/vuylcoppad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/De-Blokhovense-Polder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/vuylcoppad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>11.17 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="wageningse-engpad" style="display: inline; margin-right: 0.5em">
+        Wageningse Engpad
+      </h2>
+      <a href="./index.html#wageningse-engpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/wageningse-engpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2020-04-15-Wageningse-Engpad_200dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/wageningse-engpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>17.06 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="wageningse-engpad-kids" style="display: inline; margin-right: 0.5em">
+        Wageningse Engpad kids
+      </h2>
+      <a href="./index.html#wageningse-engpad-kids">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/wageningse-engpad-kids/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/kaart-crop-Wageningse-Engpad-KIDS.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/wageningse-engpad-kids.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>4.21 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="wiseperpad" style="display: inline; margin-right: 0.5em">
+        Wiseperpad
+      </h2>
+      <a href="./index.html#wiseperpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/wiseperpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2019-03-07-Wiseperpad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/wiseperpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>22.18 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="woldermarkerpad" style="display: inline; margin-right: 0.5em">
+        Woldermarkerpad
+      </h2>
+      <a href="./index.html#woldermarkerpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/woldermarkerpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/230-woldermarkerpad.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/woldermarkerpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>6.55 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="zandslagenpad" style="display: inline; margin-right: 0.5em">
+        Zandslagenpad
+      </h2>
+      <a href="./index.html#zandslagenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/zandslagenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2017-05-09-Zandslagenpad_Alemschepad_600dpi-1.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/zandslagenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>13.88 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="zeegsepad" style="display: inline; margin-right: 0.5em">
+        Zeegsepad
+      </h2>
+      <a href="./index.html#zeegsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/zeegsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/2018-01-30-Zeegsepad_600dpi.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/zeegsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>9.71 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="zeldertsepad" style="display: inline; margin-right: 0.5em">
+        Zeldertsepad
+      </h2>
+      <a href="./index.html#zeldertsepad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/zeldertsepad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Zeldertsepad-digitale-folder.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/zeldertsepad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>11 km</dd>
+    </dl>
+    <hr/>
+    
+    <span>
+      <h2 id="zoddenpad" style="display: inline; margin-right: 0.5em">
+        Zoddenpad
+      </h2>
+      <a href="./index.html#zoddenpad">#</a>
+    </span>
+    <dl>
+      <dt>
+        <a href="https://klompenpaden.nl/klompenpad/zoddenpad/" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="https://klompenpaden.nl/wp-content/uploads/Tienhoven.pdf" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="gpx/zoddenpad.gpx" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>17.13 km</dd>
+    </dl>
+    <hr/>
   </body>
-  <hr>
   <footer>
-    
     <p>
-      <small>Gemaakt door <a href="https://github.com/arbakker">Anton Bakker</a>. Broncode op <a href="https://github.com/arbakker/klompenpaden-gpx">Github</a>.
-      
-      <br>Data afkomsting van <a href="klompenpaden.nl">klompenpaden.nl</a>.
+      <small
+        >Gemaakt door <a href="https://github.com/arbakker">Anton Bakker</a>.
+        Broncode op
+        <a href="https://github.com/arbakker/klompenpaden-gpx">Github</a>.
 
-      <br>Laatst geüpdatet op <tt>2022-10-19 01:02</tt>.
+        <br />Data afkomsting van <a href="klompenpaden.nl">klompenpaden.nl</a>.
+
+        <br />Laatst geüpdatet om <tt>2022-10-19 12:09</tt
+        >.
       </small>
     </p>
   </footer>
 </html>
+

@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>19.64</ogr:lengte>
     <ogr:naam>Uchtapad</ogr:naam>
+    <ogr:slug>uchtapad</ogr:slug>
     <ogr:url></ogr:url>
   </extensions>
   <trkseg>

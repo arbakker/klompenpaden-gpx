@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>5.38</ogr:lengte>
     <ogr:naam>Stoutenburgpad</ogr:naam>
+    <ogr:slug>stoutenburgpad</ogr:slug>
     <ogr:url></ogr:url>
   </extensions>
   <trkseg>

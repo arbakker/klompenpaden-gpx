@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>14.09</ogr:lengte>
     <ogr:naam>Schaarsbergenpad</ogr:naam>
+    <ogr:slug>schaarsbergenpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/schaarsbergenpad</ogr:url>
   </extensions>
   <trkseg>

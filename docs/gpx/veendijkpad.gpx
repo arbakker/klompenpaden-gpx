@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>12.0</ogr:lengte>
     <ogr:naam>Veendijkpad</ogr:naam>
+    <ogr:slug>veendijkpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/veendijkpad/</ogr:url>
   </extensions>
   <trkseg>

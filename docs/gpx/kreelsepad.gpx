@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>27.3</ogr:lengte>
     <ogr:naam>Kreelsepad</ogr:naam>
+    <ogr:slug>kreelsepad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/kreelsepad/</ogr:url>
   </extensions>
   <trkseg>

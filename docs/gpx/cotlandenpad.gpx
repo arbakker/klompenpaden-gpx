@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>13.18</ogr:lengte>
     <ogr:naam>Cotlandenpad</ogr:naam>
+    <ogr:slug>cotlandenpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/cotlandenpad/</ogr:url>
   </extensions>
   <trkseg>

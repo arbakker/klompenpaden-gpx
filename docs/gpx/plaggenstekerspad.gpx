@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>12.47</ogr:lengte>
     <ogr:naam>Plaggenstekerspad</ogr:naam>
+    <ogr:slug>plaggenstekerspad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/Plaggenstekerspad/</ogr:url>
   </extensions>
   <trkseg>

@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>24.2</ogr:lengte>
     <ogr:naam>Thornspiccerpad</ogr:naam>
+    <ogr:slug>thornspiccerpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/thornspiccerpad/</ogr:url>
   </extensions>
   <trkseg>

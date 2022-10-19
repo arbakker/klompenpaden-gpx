@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>10.97</ogr:lengte>
     <ogr:naam>Eekterpad</ogr:naam>
+    <ogr:slug>eekterpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/eekterpad/</ogr:url>
   </extensions>
   <trkseg>

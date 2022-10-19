@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>20.97</ogr:lengte>
     <ogr:naam>Eendenkooienpad</ogr:naam>
+    <ogr:slug>eendenkooienpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/eendenkooienpad/</ogr:url>
   </extensions>
   <trkseg>

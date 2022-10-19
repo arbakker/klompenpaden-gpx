@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>30.93</ogr:lengte>
     <ogr:naam>Nederrijnsepad</ogr:naam>
+    <ogr:slug>nederrijnsepad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/nederrijnsepad/</ogr:url>
   </extensions>
   <trkseg>

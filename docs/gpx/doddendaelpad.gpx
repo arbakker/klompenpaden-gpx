@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>16.3</ogr:lengte>
     <ogr:naam>Doddendaelpad</ogr:naam>
+    <ogr:slug>doddendaelpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/doddendaelpad/</ogr:url>
   </extensions>
   <trkseg>

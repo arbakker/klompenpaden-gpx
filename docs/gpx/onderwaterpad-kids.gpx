@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>5.77</ogr:lengte>
     <ogr:naam>Onderwaterpad-Kids</ogr:naam>
+    <ogr:slug>onderwaterpad-kids</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/onderwaterpad-kids/</ogr:url>
   </extensions>
   <trkseg>

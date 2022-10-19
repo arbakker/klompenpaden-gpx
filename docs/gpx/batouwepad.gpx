@@ -6,6 +6,7 @@
     <ogr:lengte>18.05</ogr:lengte>
     <ogr:padnummer>75</ogr:padnummer>
     <ogr:naam>Batouwepad</ogr:naam>
+    <ogr:slug>batouwepad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/batouwepad/</ogr:url>
   </extensions>
   <trkseg>

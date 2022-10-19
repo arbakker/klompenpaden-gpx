@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>13.48</ogr:lengte>
     <ogr:naam>Moas-Wetteringpad</ogr:naam>
+    <ogr:slug>moas-wetteringpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/moas-wetteringpad/ </ogr:url>
   </extensions>
   <trkseg>

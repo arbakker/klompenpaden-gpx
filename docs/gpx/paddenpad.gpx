@@ -6,6 +6,7 @@
     <ogr:lengte>13.54</ogr:lengte>
     <ogr:padnummer>22</ogr:padnummer>
     <ogr:naam>Paddenpad</ogr:naam>
+    <ogr:slug>paddenpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/paddenpad/</ogr:url>
   </extensions>
   <trkseg>

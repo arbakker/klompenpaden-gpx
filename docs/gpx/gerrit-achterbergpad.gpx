@@ -6,6 +6,7 @@
     <ogr:lengte>25.45</ogr:lengte>
     <ogr:padnummer>13</ogr:padnummer>
     <ogr:naam>Gerrit Achterbergpad</ogr:naam>
+    <ogr:slug>gerrit-achterbergpad</ogr:slug>
   </extensions>
   <trkseg>
     <trkpt lat="51.970568775944173" lon="5.34875703937354">

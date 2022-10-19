@@ -6,6 +6,7 @@
     <ogr:lengte>14.83</ogr:lengte>
     <ogr:padnummer>74</ogr:padnummer>
     <ogr:naam>Marspad</ogr:naam>
+    <ogr:slug>marspad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/marspad/</ogr:url>
   </extensions>
   <trkseg>

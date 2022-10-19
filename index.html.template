@@ -1,42 +1,75 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Klompenpaden GPX Bestanden</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="GPX bestanden voor Klompenpaden">
-        <meta name="keywords" content="GPX,hike,klompenpad">
-        <meta name="author" content="Anton Bakker">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://vanillacss.com/vanilla.css">
+    <meta charset="UTF-8" />
+    <meta name="description" content="GPX bestanden voor Klompenpaden" />
+    <meta name="keywords" content="GPX,hike,klompenpad" />
+    <meta name="author" content="Anton Bakker" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://vanillacss.com/vanilla.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/ol@6.9.0/ol.css"
+      rel="stylesheet"
+    />
+    <script type="module" src="./script.js"></script>
+    <style>
+      .full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+hr{
+  margin-top:0.5em;
+  margin-bottom:0.5em;
+}
+    </style>
   </head>
   <body>
-    <h1>Klompenpaden GPX Bestanden</h1>
 
+    <div style="padding:1em;"><h1 style="display: inline; margin-right: 0.5em">Klompenpaden GPX Bestanden</h1><a href="./index.html#home">#</a></div>
     
+    <div id="map" class="full-width" style="height: 500px;"></div>
+    <p style="text-align:center;margin:unset;margin-top:1em;">
+    {{ count }} Klompenpaden
+    </p>
+    <hr/>
     {{#klompenpaden}}
-    <hr>
+    
     <span>
-    <h2 id="{{slug}}" style="display:inline;margin-right:0.5em;">
-      {{pad_naam}}</h2><a href="./index.html#{{slug}}">#</a>
+      <h2 id="{{ slug }}" style="display: inline; margin-right: 0.5em">
+        {{ pad_naam }}
+      </h2>
+      <a href="./index.html#{{ slug }}">#</a>
     </span>
     <dl>
-        <dt><a href="{{pad_url}}" target="_blank">Link naar klompenpaden.nl</a></dt>
-        <dt><a href="{{pad_pdf_url}}" target="_blank">Download PDF Kaart</a></dt>
-        <dt><a href="{{gpx}}" target="_blank">Download GPX</a></dt>
-        <dt>Lengte</dt>
-        <dd>{{pad_lengte}} km</dd>
+      <dt>
+        <a href="{{ pad_url }}" target="_blank">Link naar klompenpaden.nl</a>
+      </dt>
+      <dt>
+        <a href="{{ pad_pdf_url }}" target="_blank">Download PDF Kaart</a>
+      </dt>
+      <dt><a href="{{ gpx }}" target="_blank">Download GPX</a></dt>
+      <dt>Lengte</dt>
+      <dd>{{ pad_lengte }} km</dd>
     </dl>
+    <hr/>
     {{/klompenpaden}}
   </body>
-  <hr>
   <footer>
-    
     <p>
-      <small>Gemaakt door <a href="https://github.com/arbakker">Anton Bakker</a>. Broncode op <a href="https://github.com/arbakker/klompenpaden-gpx">Github</a>.
-      
-      <br>Data afkomsting van <a href="klompenpaden.nl">klompenpaden.nl</a>.
+      <small
+        >Gemaakt door <a href="https://github.com/arbakker">Anton Bakker</a>.
+        Broncode op
+        <a href="https://github.com/arbakker/klompenpaden-gpx">Github</a>.
 
-      <br>Laatst geüpdatet op <tt>{{updated}}</tt>.
+        <br />Data afkomsting van <a href="klompenpaden.nl">klompenpaden.nl</a>.
+
+        <br />Laatst geüpdatet om <tt>{{ updated }}</tt
+        >.
       </small>
     </p>
   </footer>

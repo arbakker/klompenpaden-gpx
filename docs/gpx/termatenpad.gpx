@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>23.07</ogr:lengte>
     <ogr:naam>Termatenpad</ogr:naam>
+    <ogr:slug>termatenpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/termatenpad/</ogr:url>
   </extensions>
   <trkseg>

@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>16.14</ogr:lengte>
     <ogr:naam>Heuzesepad</ogr:naam>
+    <ogr:slug>heuzesepad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/heuzesepad/</ogr:url>
   </extensions>
   <trkseg>

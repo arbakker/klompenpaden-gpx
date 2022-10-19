@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>15.36</ogr:lengte>
     <ogr:naam>Elsvoorderpad</ogr:naam>
+    <ogr:slug>elsvoorderpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/elsvoorderpad/</ogr:url>
   </extensions>
   <trkseg>

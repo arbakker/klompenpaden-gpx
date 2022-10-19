@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>3.0</ogr:lengte>
     <ogr:naam>Laaksepad KIDS</ogr:naam>
+    <ogr:slug>laaksepad-kids</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/laaksepad-kids/ </ogr:url>
   </extensions>
   <trkseg>

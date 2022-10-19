@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>6.9</ogr:lengte>
     <ogr:naam>Eeskooterpad</ogr:naam>
+    <ogr:slug>eeskooterpad</ogr:slug>
     <ogr:url></ogr:url>
   </extensions>
   <trkseg>

@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>19.41</ogr:lengte>
     <ogr:naam>Beekweidenpad</ogr:naam>
+    <ogr:slug>beekweidenpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/beekweidenpad/</ogr:url>
   </extensions>
   <trkseg>

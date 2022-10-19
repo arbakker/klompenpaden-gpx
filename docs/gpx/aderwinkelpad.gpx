@@ -6,6 +6,7 @@
     <ogr:lengte>13.32</ogr:lengte>
     <ogr:padnummer>1</ogr:padnummer>
     <ogr:naam>Aderwinkelpad</ogr:naam>
+    <ogr:slug>aderwinkelpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/aderwinkelpad/</ogr:url>
   </extensions>
   <trkseg>

@@ -6,6 +6,7 @@
     <ogr:lengte>15.19</ogr:lengte>
     <ogr:padnummer>71</ogr:padnummer>
     <ogr:naam>Stoetwegenpad</ogr:naam>
+    <ogr:slug>stoetwegenpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/stoetwegenpad/</ogr:url>
   </extensions>
   <trkseg>

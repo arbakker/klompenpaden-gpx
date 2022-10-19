@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>16.13</ogr:lengte>
     <ogr:naam>Markluiderpad</ogr:naam>
+    <ogr:slug>markluiderpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/Markluiderpad/</ogr:url>
   </extensions>
   <trkseg>

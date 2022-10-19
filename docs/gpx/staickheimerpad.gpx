@@ -6,6 +6,7 @@
     <ogr:lengte>22.12</ogr:lengte>
     <ogr:padnummer>99</ogr:padnummer>
     <ogr:naam>Staickheimerpad</ogr:naam>
+    <ogr:slug>staickheimerpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/staickheimerpad/ </ogr:url>
   </extensions>
   <trkseg>

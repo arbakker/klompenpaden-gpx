@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>9.76</ogr:lengte>
     <ogr:naam>Lint- en Liniepad</ogr:naam>
+    <ogr:slug>lint-en-liniepad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/lint-en-liniepad/</ogr:url>
   </extensions>
   <trkseg>

@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>22.18</ogr:lengte>
     <ogr:naam>Wiseperpad</ogr:naam>
+    <ogr:slug>wiseperpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/wiseperpad/</ogr:url>
   </extensions>
   <trkseg>

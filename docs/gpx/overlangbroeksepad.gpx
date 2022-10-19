@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>13.0</ogr:lengte>
     <ogr:naam>Overlangbroeksepad</ogr:naam>
+    <ogr:slug>overlangbroeksepad</ogr:slug>
   </extensions>
   <trkseg>
     <trkpt lat="52.005168503091625" lon="5.400917536682883">

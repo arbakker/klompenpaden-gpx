@@ -5,6 +5,7 @@
   <extensions>
     <ogr:lengte>12.05</ogr:lengte>
     <ogr:naam>Babborgapad</ogr:naam>
+    <ogr:slug>babborgapad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/babborgapad/</ogr:url>
   </extensions>
   <trkseg>

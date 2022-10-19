@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -euox pipefail
 
 DATA_DIR="./data"
-mkdir -p "$DATA_DIR"
-GPX_DIR="./gh-pages/gpx"
-mkdir -p "$GPX_DIR"
-BASE_URL="https://services1.arcgis.com/onNgFGfh3zOPcUU0/arcgis/rest/services/Klompenpaden_webkaart_2/FeatureServer"
-
+GPX_DIR="./docs/gpx"
 DOWNLOAD_JSON=${1:-FALSE}
+
+
+mkdir -p "$GPX_DIR"
+mkdir -p "$DATA_DIR"
 
 
 function escape_query(){
@@ -16,8 +16,8 @@ function escape_query(){
 }
 
 function convert_to_gpx(){
-    pad_naam="$1"
-    pad_path="${GPX_DIR}/${pad_naam,,}.gpx"
+    slug="$1"
+    pad_path="${GPX_DIR}/${slug}.gpx"
     rm -f "$pad_path"
     ogr2ogr -f GPX "$pad_path" "${DATA_DIR}/linestring.geojson" -dialect sqlite -sql \
     "SELECT 
@@ -25,22 +25,36 @@ function convert_to_gpx(){
         round(ST_Length(st_transform(ST_Union(geom), 28992))/1000,2) as lengte,
         max(padnummer) as padnummer,
         coalesce(null,naam) as naam,
+        coalesce(null,slug) as slug,
         substr(substr(group_concat(url), instr(group_concat(url), 'https://')), 1, instr(substr(group_concat(url), instr(group_concat(url), 'https://')), '\"')-1) as url
     FROM (
 		SELECT 
             geometry as geom, 
-            NAAM as naam, 
+            NAAM as naam,
+            slug,
             NULLIF(PADNUMMER, 0) as padnummer,
             ULR as url
         FROM linestring
 	) AS linestring_proc 
-    WHERE naam='${pad_naam}'" \
-    -s_srs "EPSG:3857" -t_srs "EPSG:4326" -nlt MULTILINESTRING -nln "${pad_naam,,}" -dsco GPX_USE_EXTENSIONS=YES -lco  FORCE_GPX_TRACK=YES
+    WHERE slug='${slug}'" \
+    -s_srs "EPSG:3857" -t_srs "EPSG:4326" -nlt MULTILINESTRING -nln "${slug}" -dsco GPX_USE_EXTENSIONS=YES -lco  FORCE_GPX_TRACK=YES
 }
 
+function get_att(){
+    att_name="$1"
+    file_path="$2"
+    layer_name="$3"
+    if ogrinfo "$file_path" "$layer_name" -so | grep "${att_name}:" > /dev/null;then
+        ogrinfo "$file_path" "$layer_name"  | grep "$att_name" | grep "=" | cut -d= -f2 | xargs
+    fi
+    echo ""
+}
+
+### DOWNLOAD KLOMPENPADEN FROM ARCGIS WEBSERVICE
+
+BASE_URL="https://services1.arcgis.com/onNgFGfh3zOPcUU0/arcgis/rest/services/Klompenpaden_webkaart_2/FeatureServer"
 # shellcheck disable=SC2089
 query_linestring='f=geojson&where=1=1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=1.0583354500042348&outFields=*&maxRecordCountFactor=2&outSR=3857&resultOffset=0&resultRecordCount=4000&cacheHint=true&quantizationParameters={"mode":"view","originPosition":"upperLeft","tolerance":1.0583354500042348,"extent":{"xmin":118766.25439999998,"ymin":416947.87249999866,"xmax":248800.14389999956,"ymax":500138.99170000106,"spatialReference":{"wkid":28992,"latestWkid":28992}}}'
-
 query_linestring_esc=$(escape_query "$query_linestring")
 
 linestring_svc_url="${BASE_URL}/0/query"
@@ -59,27 +73,37 @@ if [[ $DOWNLOAD_JSON == "TRUE" ]];then
     wget "$point_url" -O "${DATA_DIR}/point.geojson"
 fi
 
-# pad_namen=$(ogrinfo data/linestring.geojson -sql "select NAAM from linestring" -geom=NO | grep "NAAM" | grep "=" | cut -d= -f2  | sort -u)
-# while read -r line; do 
-#     convert_to_gpx "$line"
-# done <<<"$pad_namen"
+### ADD SLUG ATTRIBUTE TO LINESTRING
 
-function get_att(){
-    att_name="$1"
-    file_path="$2"
-    layer_name="$3"
-    if ogrinfo "$file_path" "$layer_name" -so | grep "${att_name}:" > /dev/null;then
-        ogrinfo "$file_path" "$layer_name"  | grep "$att_name" | grep "=" | cut -d= -f2 | xargs
-    fi
-    echo ""
-}
+python3 -c \
+'from slugify import slugify
+import json
 
-csv="pad_url;pad_naam;pad_lengte;pad_pdf_url\n"
+with open("data/linestring.geojson", "r") as f:
+    geojson = json.load(f)
+    for ft in geojson["features"]:
+        ft["properties"].update({"slug": slugify(ft["properties"]["NAAM"])})
 
+with open("data/linestring.geojson", "w") as f:
+    json.dump(geojson, f)'
+
+
+### CONVERT KLOMPENPADEN TO INDIVIDUAL GPX FILES
+
+slugs=$(ogrinfo data/linestring.geojson -sql "select slug from linestring" -geom=NO | grep "slug" | grep "=" | cut -d= -f2  | sort -u)
+while read -r slug; do 
+    convert_to_gpx "$slug"
+done <<<"$slugs"
+
+
+### CONVERT GPX FILES TO JSON INDEX
+
+csv="pad_url;pad_naam;pad_slug;pad_lengte;pad_pdf_url\n"
 set +u
-for gpx_file in gpx/*.gpx; do
+for gpx_file in $GPX_DIR/*.gpx; do
     pad_url=$(get_att ogr_url "$gpx_file" "tracks")
     pad_naam=$(get_att ogr_naam "$gpx_file" "tracks")
+    pad_slug=$(get_att ogr_slug "$gpx_file" "tracks")
     pad_lengte=$(get_att ogr_lengte "$gpx_file" "tracks")
     pad_pdf_url=""
     if [[ -n $pad_url ]];then        
@@ -93,9 +117,38 @@ for gpx_file in gpx/*.gpx; do
             pad_pdf_url=$(pup < "$html_path" 'a attr{href}' | grep "https://bit.ly" | head -n1 | xargs | tr -d '\n')
         fi
     fi
-    csv="${csv}${pad_url};${pad_naam};${pad_lengte};${pad_pdf_url}\n"
+    csv="${csv}${pad_url};${pad_naam};${pad_slug};${pad_lengte};${pad_pdf_url}\n"
 done
 set -u
 
 echo -e "$csv" > data/klompenpaden.csv
-jq -R -s -f csv2json.jq data/klompenpaden.csv > data/klompenpaden.json
+jq -R -s -f scripts/csv2json.jq data/klompenpaden.csv > data/klompenpaden.json
+
+python3 -c \
+'import json
+import datetime
+with open("data/klompenpaden.json","r") as json_file_r:
+    values = json.load(json_file_r)
+    today = datetime.date.today()
+    count = len(values)
+    values = {
+        "klompenpaden": values,
+        "count": count
+    }
+    values.update({"updated": str(datetime.datetime.now()).rsplit(":", 1)[0]})
+with open("data/klompenpaden.json","w") as json_file_w:
+    json.dump(values, json_file_w)
+'
+
+### GENERATE INDEX GEOJSON FILE
+
+output_file=docs/index.geojson
+rm -f "$output_file"
+for gpx_file in $GPX_DIR/*.gpx; do
+    append_flag=""
+    if [[ -f $output_file ]];then
+        append_flag="-append"
+    fi
+    ogr2ogr $append_flag -f GeoJSON "$output_file" "$gpx_file" -dialect sqlite -sql \
+    "select st_centroid(geometry) as geom,ogr_naam as naam,ogr_slug as slug from tracks" -nln overview_points
+done

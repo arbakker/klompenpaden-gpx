@@ -6,6 +6,7 @@
     <ogr:lengte>6.3</ogr:lengte>
     <ogr:padnummer>5</ogr:padnummer>
     <ogr:naam>Breeschoterpad</ogr:naam>
+    <ogr:slug>breeschoterpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/breeschoterpad/</ogr:url>
   </extensions>
   <trkseg>

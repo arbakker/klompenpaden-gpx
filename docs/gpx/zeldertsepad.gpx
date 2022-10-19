@@ -6,6 +6,7 @@
     <ogr:lengte>11.0</ogr:lengte>
     <ogr:padnummer>44</ogr:padnummer>
     <ogr:naam>Zeldertsepad</ogr:naam>
+    <ogr:slug>zeldertsepad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/zeldertsepad/</ogr:url>
   </extensions>
   <trkseg>

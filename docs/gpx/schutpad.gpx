@@ -6,6 +6,7 @@
     <ogr:lengte>4.81</ogr:lengte>
     <ogr:padnummer>37</ogr:padnummer>
     <ogr:naam>Schutpad</ogr:naam>
+    <ogr:slug>schutpad</ogr:slug>
     <ogr:url>https://klompenpaden.nl/klompenpad/schutpad/</ogr:url>
   </extensions>
   <trkseg>
